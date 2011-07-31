@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Gramps 3.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-01 10:36+0200\n"
-"PO-Revision-Date: 2011-07-31 18:42+0900\n"
+"PO-Revision-Date: 2011-08-01 01:59+0900\n"
 "Last-Translator: Keiichiro Yamamoto <k.yanmar@gmail.com>\n"
 "Language-Team: Gramps Japanese Translaor Team\n"
 "Language: ja\n"
@@ -2316,21 +2316,18 @@ msgstr "一番目のアイコンの名前"
 
 #: ../src/gen/display/name.py:561
 #: ../src/gen/display/name.py:657
-#, fuzzy
 msgid "primary[pre]"
-msgstr "前の曲(_V)"
+msgstr "主[pre]"
 
 #: ../src/gen/display/name.py:564
 #: ../src/gen/display/name.py:659
-#, fuzzy
 msgid "primary[sur]"
-msgstr "一番目の GIcon"
+msgstr "主[sur]"
 
 #: ../src/gen/display/name.py:567
 #: ../src/gen/display/name.py:661
-#, fuzzy
 msgid "primary[con]"
-msgstr "一番目の GIcon"
+msgstr "主[con]"
 
 #: ../src/gen/display/name.py:569
 #: ../src/gen/display/name.py:663
@@ -2339,9 +2336,8 @@ msgstr ""
 
 #: ../src/gen/display/name.py:571
 #: ../src/gen/display/name.py:665
-#, fuzzy
 msgid "patronymic[pre]"
-msgstr "前の曲(_V)"
+msgstr "父称[pre]"
 
 #: ../src/gen/display/name.py:573
 #: ../src/gen/display/name.py:667
@@ -2360,9 +2356,8 @@ msgstr ""
 
 #: ../src/gen/display/name.py:580
 #: ../src/gen/display/name.py:673
-#, fuzzy
 msgid "Remaining names|rest"
-msgstr "残りのデータを保存できませんでした"
+msgstr "残りの名前|残り"
 
 #: ../src/gen/display/name.py:583
 #: ../src/gen/display/name.py:675
@@ -2428,14 +2423,12 @@ msgid "Description"
 msgstr "詳細"
 
 #: ../src/gen/lib/attrtype.py:67
-#, fuzzy
 msgid "Identification Number"
-msgstr "浮動小数点数"
+msgstr "識別番号"
 
 #: ../src/gen/lib/attrtype.py:68
-#, fuzzy
 msgid "National Origin"
-msgstr "ガイドの原点"
+msgstr "国籍"
 
 #: ../src/gen/lib/attrtype.py:69
 msgid "Number of Children"
@@ -2729,9 +2722,8 @@ msgid "Groom"
 msgstr ""
 
 #: ../src/gen/lib/eventroletype.py:67
-#, fuzzy
 msgid "Role|Family"
-msgstr "ファミリ名:"
+msgstr "役割|家族"
 
 #: ../src/gen/lib/eventroletype.py:68
 msgid "Informant"
@@ -2811,9 +2803,8 @@ msgid "Emigration"
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:163
-#, fuzzy
 msgid "First Communion"
-msgstr "1 次導関数"
+msgstr "最初の聖餐式"
 
 #: ../src/gen/lib/eventtype.py:164
 msgid "Immigration"
@@ -2836,9 +2827,8 @@ msgid "Naturalization"
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:169
-#, fuzzy
 msgid "Nobility Title"
-msgstr "功績"
+msgstr "称号"
 
 #: ../src/gen/lib/eventtype.py:170
 msgid "Number of Marriages"
@@ -2895,14 +2885,12 @@ msgid "Marriage Settlement"
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:181
-#, fuzzy
 msgid "Marriage License"
-msgstr "ライセンスのラッピング"
+msgstr "結婚ライセンス"
 
 #: ../src/gen/lib/eventtype.py:182
-#, fuzzy
 msgid "Marriage Contract"
-msgstr "文字間隔を縮める"
+msgstr "結婚契約"
 
 #: ../src/gen/lib/eventtype.py:183
 msgid "Marriage Banns"
@@ -2925,9 +2913,8 @@ msgid "Annulment"
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:188
-#, fuzzy
 msgid "Alternate Marriage"
-msgstr "<small>交互にする:</small>"
+msgstr "別の結婚"
 
 #: ../src/gen/lib/eventtype.py:192
 msgid "birth abbreviation|b."
@@ -2946,101 +2933,84 @@ msgid "Unknown abbreviation|unkn."
 msgstr "不明の省略形式|unkn."
 
 #: ../src/gen/lib/eventtype.py:196
-#, fuzzy
 msgid "Custom abbreviation|cust."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "カスタムの省略表記|cust."
 
 #: ../src/gen/lib/eventtype.py:197
-#, fuzzy
 msgid "Adopted abbreviation|adop."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "養子縁組の省略表記|adop."
 
 #: ../src/gen/lib/eventtype.py:198
 msgid "Adult Christening abbreviation|a.chr."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:199
-#, fuzzy
 msgid "Baptism abbreviation|bap."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "洗礼の省略表記|bap."
 
 #: ../src/gen/lib/eventtype.py:200
-#, fuzzy
 msgid "Bar Mitzvah abbreviation|bar."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "バルミツヴァの省略表記|bar."
 
 #: ../src/gen/lib/eventtype.py:201
-#, fuzzy
 msgid "Bas Mitzvah abbreviation|bas."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "バトミツヴァの省略表記|bas."
 
 #: ../src/gen/lib/eventtype.py:202
-#, fuzzy
 msgid "Blessing abbreviation|bles."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "祝福の省略表記|bles."
 
 #: ../src/gen/lib/eventtype.py:203
-#, fuzzy
 msgid "Burial abbreviation|bur."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "土葬の省略表記|bur."
 
 #: ../src/gen/lib/eventtype.py:204
 msgid "Cause Of Death abbreviation|d.cau."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:205
-#, fuzzy
 msgid "Census abbreviation|cens."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "人口調査の省略表記|cens."
 
 #: ../src/gen/lib/eventtype.py:206
-#, fuzzy
 msgid "Christening abbreviation|chr."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "洗礼の省略表記|chr."
 
 #: ../src/gen/lib/eventtype.py:207
-#, fuzzy
 msgid "Confirmation abbreviation|conf."
-msgstr "設定ファイル %s/%s が重複しています"
+msgstr "堅信の省略表記|conf."
 
 #: ../src/gen/lib/eventtype.py:208
-#, fuzzy
 msgid "Cremation abbreviation|crem."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "火葬の省略表記|crem."
 
 #: ../src/gen/lib/eventtype.py:209
-#, fuzzy
 msgid "Degree abbreviation|deg."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "称号の省略表記|deg."
 
 #: ../src/gen/lib/eventtype.py:210
-#, fuzzy
 msgid "Education abbreviation|edu."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "教育の省略表記|edu."
 
 #: ../src/gen/lib/eventtype.py:211
-#, fuzzy
 msgid "Elected abbreviation|elec."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "選挙の省略表記|elec."
 
 #: ../src/gen/lib/eventtype.py:212
-#, fuzzy
 msgid "Emigration abbreviation|em."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "移出の省略表記|em."
 
 #: ../src/gen/lib/eventtype.py:213
 msgid "First Communion abbreviation|f.comm."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:214
-#, fuzzy
 msgid "Immigration abbreviation|im."
-msgstr "デフォルトの IM モジュール"
+msgstr "移入の省略表記|em."
 
 #: ../src/gen/lib/eventtype.py:215
-#, fuzzy
 msgid "Graduation abbreviation|grad."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "卒業の省略表記|grad."
 
 #: ../src/gen/lib/eventtype.py:216
 msgid "Medical Information abbreviation|medinf."
@@ -3051,9 +3021,8 @@ msgid "Military Service abbreviation|milser."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:218
-#, fuzzy
 msgid "Naturalization abbreviation|nat."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "帰化の省略表記|nat."
 
 #: ../src/gen/lib/eventtype.py:219
 msgid "Nobility Title abbreviation|nob."
@@ -3064,44 +3033,36 @@ msgid "Number of Marriages abbreviation|n.o.mar."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:221
-#, fuzzy
 msgid "Occupation abbreviation|occ."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "職業の省略表記|occ."
 
 #: ../src/gen/lib/eventtype.py:222
-#, fuzzy
 msgid "Ordination abbreviation|ord."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "叙階の省略表記|ord."
 
 #: ../src/gen/lib/eventtype.py:223
-#, fuzzy
 msgid "Probate abbreviation|prob."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "検認の省略表記|prob."
 
 #: ../src/gen/lib/eventtype.py:224
-#, fuzzy
 msgid "Property abbreviation|prop."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "財産の省略表記|prop."
 
 #: ../src/gen/lib/eventtype.py:225
-#, fuzzy
 msgid "Religion abbreviation|rel."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "宗教の省略表記|rel."
 
 #: ../src/gen/lib/eventtype.py:226
-#, fuzzy
 msgid "Residence abbreviation|res."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "居住の省略表記|res."
 
 #: ../src/gen/lib/eventtype.py:227
-#, fuzzy
 msgid "Retirement abbreviation|ret."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "引退の省略表記|ret."
 
 #: ../src/gen/lib/eventtype.py:228
-#, fuzzy
 msgid "Will abbreviation|will."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "遺言の省略表記|will."
 
 #: ../src/gen/lib/eventtype.py:229
 msgid "Marriage Settlement abbreviation|m.set."
@@ -3124,28 +3085,24 @@ msgid "Alternate Marriage abbreviation|alt.mar."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:234
-#, fuzzy
 msgid "Engagement abbreviation|engd."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "婚約の省略表記|engd."
 
 #: ../src/gen/lib/eventtype.py:235
-#, fuzzy
 msgid "Divorce abbreviation|div."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "離婚の省略表記|div."
 
 #: ../src/gen/lib/eventtype.py:236
 msgid "Divorce Filing abbreviation|div.f."
 msgstr ""
 
 #: ../src/gen/lib/eventtype.py:237
-#, fuzzy
 msgid "Annulment abbreviation|annul."
-msgstr "理解できない省略形式です: '%c'"
+msgstr "婚姻無効の省略表記|annul."
 
 #: ../src/gen/lib/familyreltype.py:53
-#, fuzzy
 msgid "Civil Union"
-msgstr "ミャンマー連邦"
+msgstr "シビルユニオン"
 
 #: ../src/gen/lib/familyreltype.py:54
 msgid "Unmarried"
@@ -3160,28 +3117,24 @@ msgid "Endowment"
 msgstr ""
 
 #: ../src/gen/lib/ldsord.py:96
-#, fuzzy
 msgid "Sealed to Parents"
-msgstr "%s。ドラッグで<b>move</b>します。"
+msgstr "親子の結び固め"
 
 #: ../src/gen/lib/ldsord.py:97
-#, fuzzy
 msgid "Sealed to Spouse"
-msgstr "%s。ドラッグで<b>move</b>します。"
+msgstr "夫婦の結び固め"
 
 #: ../src/gen/lib/ldsord.py:101
-#, fuzzy
 msgid "<No Status>"
-msgstr "状態を表す文字列"
+msgstr "<ステータスなし>"
 
 #: ../src/gen/lib/ldsord.py:102
 msgid "BIC"
 msgstr ""
 
 #: ../src/gen/lib/ldsord.py:103
-#, fuzzy
 msgid "Canceled"
-msgstr "移動をキャンセルしました。"
+msgstr "キャンセルされた"
 
 #: ../src/gen/lib/ldsord.py:105
 msgid "Cleared"
@@ -3200,18 +3153,16 @@ msgid "Infant"
 msgstr ""
 
 #: ../src/gen/lib/ldsord.py:109
-#, fuzzy
 msgid "Pre-1970"
-msgstr "前の曲(_V)"
+msgstr "1970年より以前"
 
 #: ../src/gen/lib/ldsord.py:110
 msgid "Qualified"
 msgstr ""
 
 #: ../src/gen/lib/ldsord.py:111
-#, fuzzy
 msgid "DNS/CAN"
-msgstr "デフォルト可否"
+msgstr "DNS/CAN"
 
 #: ../src/gen/lib/ldsord.py:112
 msgid "Stillborn"
@@ -3227,9 +3178,8 @@ msgstr ""
 
 #: ../src/gen/lib/markertype.py:59
 #: ../src/GrampsLogger/_ErrorReportAssistant.py:57
-#, fuzzy
 msgid "Complete"
-msgstr "自動保存完了。"
+msgstr "完了"
 
 #: ../src/gen/lib/markertype.py:60
 #: ../src/plugins/tool/NotRelated.py:108
@@ -3239,17 +3189,15 @@ msgstr ""
 #: ../src/gen/lib/nametype.py:55
 #, fuzzy
 msgid "Also Known As"
-msgstr "現在のレイヤーのサブレイヤー"
+msgstr "Also Known As"
 
 #: ../src/gen/lib/nametype.py:56
-#, fuzzy
 msgid "Birth Name"
-msgstr "属性名"
+msgstr "出生名"
 
 #: ../src/gen/lib/nametype.py:57
-#, fuzzy
 msgid "Married Name"
-msgstr "属性名"
+msgstr "婚姻名"
 
 #: ../src/gen/lib/nameorigintype.py:83
 msgid "Surname|Inherited"
@@ -4487,24 +4435,21 @@ msgid "Check now"
 msgstr "今すぐ確認"
 
 #: ../src/gui/configure.py:1105
-#, fuzzy
 msgid "Family Tree Database path"
-msgstr "<b>生成したデータベースを格納するフォルダを指定指定して下さい:</b>"
+msgstr "家系図データベースのパス"
 
 #: ../src/gui/configure.py:1108
 msgid "Automatically load last family tree"
 msgstr ""
 
 #: ../src/gui/configure.py:1121
-#, fuzzy
 msgid "Select media directory"
-msgstr "%s には \"-d ディレクトリ\" の指定が必要です"
+msgstr "メディアフォルダを選択"
 
 #: ../src/gui/dbloader.py:117
 #: ../src/gui/plug/tool.py:105
-#, fuzzy
 msgid "Undo history warning"
-msgstr "%s:%d: 警告: 文字列に終端がありません"
+msgstr "　ヒストリ警告を元に戻す"
 
 #: ../src/gui/dbloader.py:118
 msgid ""
@@ -4514,20 +4459,17 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/dbloader.py:123
-#, fuzzy
 msgid "_Proceed with import"
-msgstr "テキストをテキストとしてインポート"
+msgstr "_インポートを続ける"
 
 #: ../src/gui/dbloader.py:123
 #: ../src/gui/plug/tool.py:112
-#, fuzzy
 msgid "_Stop"
-msgstr "停止(_S)"
+msgstr "_停止"
 
 #: ../src/gui/dbloader.py:130
-#, fuzzy
 msgid "Gramps: Import database"
-msgstr "翻訳履歴データベースの作成"
+msgstr "Gramps: データベースのインポート"
 
 #: ../src/gui/dbloader.py:189
 #, python-format
@@ -4539,82 +4481,71 @@ msgstr ""
 
 #: ../src/gui/dbloader.py:213
 #: ../src/gui/dbloader.py:219
-#, fuzzy
 msgid "Cannot open file"
-msgstr "新しい statoverride ファイルをオープンできません"
+msgstr "ファイルを開けません"
 
 #: ../src/gui/dbloader.py:214
-#, fuzzy
 msgid "The selected file is a directory, not a file.\n"
-msgstr "設定ファイル %s は通常のファイルではありません。"
+msgstr "選択されたのはフォルダで、ファイルではありません\n"
 
 #: ../src/gui/dbloader.py:220
 msgid "You do not have read access to the selected file."
 msgstr ""
 
 #: ../src/gui/dbloader.py:229
-#, fuzzy
 msgid "Cannot create file"
-msgstr "出力ファイル \"%s\" を作ることができません"
+msgstr "ファイルを作成できません"
 
 #: ../src/gui/dbloader.py:249
-#, fuzzy, python-format
+#, python-format
 msgid "Could not import file: %s"
-msgstr "ファイルを置けませんでした: %s"
+msgstr "ファイルをインポートできませんでした: %s"
 
 #: ../src/gui/dbloader.py:250
 msgid "This file incorrectly identifies its character set, so it cannot be accurately imported. Please fix the encoding, and import again"
 msgstr ""
 
 #: ../src/gui/dbloader.py:303
-#, fuzzy
 msgid "Need to upgrade database!"
-msgstr "%s データベースを '%.250s' へフラッシュできませんでした"
+msgstr "データベースをアップグレードする必要があります!"
 
 #: ../src/gui/dbloader.py:305
-#, fuzzy
 msgid "Upgrade now"
-msgstr "アップグレードパッケージを検出しています ... "
+msgstr "今すぐアップグレード"
 
 #: ../src/gui/dbloader.py:306
 #: ../src/gui/viewmanager.py:1037
 #: ../src/plugins/BookReport.py:674
 #: ../src/plugins/BookReport.py:1065
 #: ../src/plugins/view/familyview.py:258
-#, fuzzy
 msgid "Cancel"
 msgstr "キャンセル"
 
 #: ../src/gui/dbloader.py:363
-#, fuzzy
 msgid "All files"
 msgstr "全てのファイル"
 
 #: ../src/gui/dbloader.py:404
-#, fuzzy
 msgid "Automatically detected"
-msgstr "自動翻訳中..."
+msgstr "自動検出されました"
 
 #: ../src/gui/dbloader.py:413
 #, fuzzy
 msgid "Select file _type:"
-msgstr "ファイル名を入力して下さい"
+msgstr "ファイル _形式を選択してください"
 
 #: ../src/gui/dbman.py:104
-#, fuzzy
 msgid "_Extract"
-msgstr "画像の抽出"
+msgstr "_抽出"
 
 #: ../src/gui/dbman.py:104
 #: ../src/glade/dbman.glade.h:5
-#, fuzzy
 msgid "_Archive"
-msgstr "壊れたアーカイブ"
+msgstr "_アーカイブ"
 
 #: ../src/gui/dbman.py:271
-#, fuzzy
 msgid "Family tree name"
-msgstr "グリフ名の編集"
+msgstr "家系図の名前"
 
 #: ../src/gui/dbman.py:281
 #: ../src/gui/editors/displaytabs/familyldsembedlist.py:53
@@ -4622,33 +4553,29 @@ msgstr "グリフ名の編集"
 #: ../src/gui/plug/_windows.py:111
 #: ../src/gui/plug/_windows.py:169
 #: ../src/plugins/webreport/NarrativeWeb.py:142
-#, fuzzy
 msgid "Status"
 msgstr "状態"
 
 #: ../src/gui/dbman.py:287
-#, fuzzy
 msgid "Last accessed"
-msgstr "最後の選択部分"
+msgstr "最終アクセス"
 
 #: ../src/gui/dbman.py:369
-#, fuzzy, python-format
+#, python-format
 msgid "Break the lock on the '%s' database?"
-msgstr "Caps Lock が ON です"
+msgstr "データベース '%s' のロックを解除しますか?"
 
 #: ../src/gui/dbman.py:370
 msgid "Gramps believes that someone else is actively editing this database. You cannot edit this database while it is locked. If no one is editing the database you may safely break the lock. However, if someone else is editing the database and you break the lock, you may corrupt the database."
 msgstr ""
 
 #: ../src/gui/dbman.py:376
-#, fuzzy
 msgid "Break lock"
-msgstr "レイヤーをロック"
+msgstr "ロックを解除"
 
 #: ../src/gui/dbman.py:453
-#, fuzzy
 msgid "Rename failed"
-msgstr "名前の変更に失敗しました。%s (%s -> %s)"
+msgstr "名前の変更に失敗しました"
 
 #: ../src/gui/dbman.py:454
 #, python-format
@@ -4659,37 +4586,33 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/dbman.py:468
-#, fuzzy
 msgid "Could not rename the Family Tree."
-msgstr "%s の名前を %s に戻せませんでした: %s\n"
+msgstr "家系図の名前変更に失敗しました"
 
 #: ../src/gui/dbman.py:469
 msgid "Family Tree already exists, choose a unique name."
 msgstr ""
 
 #: ../src/gui/dbman.py:507
-#, fuzzy
 msgid "Extracting archive..."
-msgstr "壊れたアーカイブ"
+msgstr "アーカイブを展開しています..."
 
 #: ../src/gui/dbman.py:512
-#, fuzzy
 msgid "Importing archive..."
-msgstr "壊れたアーカイブ"
+msgstr "アーカイブをインポートしています..."
 
 #: ../src/gui/dbman.py:528
-#, fuzzy, python-format
+#, python-format
 msgid "Remove the '%s' family tree?"
-msgstr "ツリー線を有効にする"
+msgstr "家系図 '%s' を削除しますか?"
 
 #: ../src/gui/dbman.py:529
 msgid "Removing this family tree will permanently destroy the data."
 msgstr ""
 
 #: ../src/gui/dbman.py:530
-#, fuzzy
 msgid "Remove family tree"
-msgstr "ツリー線を有効にする"
+msgstr "家系図を削除"
 
 #: ../src/gui/dbman.py:536
 #, python-format
@@ -4701,18 +4624,16 @@ msgid "Removing this version will prevent you from extracting it in the future."
 msgstr ""
 
 #: ../src/gui/dbman.py:542
-#, fuzzy
 msgid "Remove version"
-msgstr "プログラムのバージョン"
+msgstr "バージョンの削除"
 
 #: ../src/gui/dbman.py:571
 msgid "Could not delete family tree"
 msgstr ""
 
 #: ../src/gui/dbman.py:596
-#, fuzzy
 msgid "Deletion failed"
-msgstr "%s サブプロセスが失敗しました"
+msgstr "削除に失敗しました"
 
 #: ../src/gui/dbman.py:597
 #, python-format
@@ -4723,9 +4644,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/dbman.py:625
-#, fuzzy
 msgid "Repair family tree?"
-msgstr "ツリー線を有効にする"
+msgstr "家系図を修復しますか?"
 
 #: ../src/gui/dbman.py:627
 #, python-format
@@ -4741,33 +4661,28 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/dbman.py:646
-#, fuzzy
 msgid "Proceed, I have taken a backup"
-msgstr "      --suffix=SUFFIX         通常のバックアップ接尾辞を上書き\n"
+msgstr "続けます, バックアップを取りました"
 
 #: ../src/gui/dbman.py:647
-#, fuzzy
 msgid "Stop"
-msgstr "停止(_S)"
+msgstr "停止"
 
 #: ../src/gui/dbman.py:670
 msgid "Rebuilding database from backup files"
 msgstr ""
 
 #: ../src/gui/dbman.py:675
-#, fuzzy
 msgid "Error restoring backup data"
-msgstr "バックアップのコピーを生成する際にエラー: %s"
+msgstr "バックアップデータの復元に失敗しました"
 
 #: ../src/gui/dbman.py:710
-#, fuzzy
 msgid "Could not create family tree"
-msgstr "%s (f=%u t=%u p=%u) に対するソケットを作成できません"
+msgstr "家系図を作成できません"
 
 #: ../src/gui/dbman.py:824
-#, fuzzy
 msgid "Retrieve failed"
-msgstr "%s サブプロセスが失敗しました"
+msgstr "取得が失敗しました"
 
 #: ../src/gui/dbman.py:825
 #, python-format
@@ -4779,9 +4694,8 @@ msgstr ""
 
 #: ../src/gui/dbman.py:865
 #: ../src/gui/dbman.py:893
-#, fuzzy
 msgid "Archiving failed"
-msgstr "%s サブプロセスが失敗しました"
+msgstr "圧縮が失敗しました"
 
 #: ../src/gui/dbman.py:866
 #, python-format
@@ -4796,9 +4710,8 @@ msgid "Creating data to be archived..."
 msgstr ""
 
 #: ../src/gui/dbman.py:880
-#, fuzzy
 msgid "Saving archive..."
-msgstr "壊れたアーカイブ"
+msgstr "アーカイブを保存しています..."
 
 #: ../src/gui/dbman.py:894
 #, python-format
@@ -4809,145 +4722,121 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/filtereditor.py:80
-#, fuzzy
 msgid "Person Filters"
-msgstr "フィルタなし(_F)"
+msgstr "人物フィルタ"
 
 #: ../src/gui/filtereditor.py:81
-#, fuzzy
 msgid "Family Filters"
-msgstr "フィルタなし(_F)"
+msgstr "家族フィルタ"
 
 #: ../src/gui/filtereditor.py:82
-#, fuzzy
 msgid "Event Filters"
-msgstr "フィルタなし(_F)"
+msgstr "イベントフィルタ"
 
 #: ../src/gui/filtereditor.py:83
-#, fuzzy
 msgid "Place Filters"
-msgstr "フィルタなし(_F)"
+msgstr "場所フィルタ"
 
 #: ../src/gui/filtereditor.py:84
-#, fuzzy
 msgid "Source Filters"
-msgstr "フィルタなし(_F)"
+msgstr "ソースフィルタ"
 
 #: ../src/gui/filtereditor.py:85
-#, fuzzy
 msgid "Media Object Filters"
-msgstr "%s (フィルタなし) - Inkscape"
+msgstr "メディアオブジェクトフィルタ"
 
 #: ../src/gui/filtereditor.py:86
-#, fuzzy
 msgid "Repository Filters"
-msgstr "フィルタなし(_F)"
+msgstr "レポジトリフィルタ"
 
 #: ../src/gui/filtereditor.py:87
-#, fuzzy
 msgid "Note Filters"
-msgstr "フィルタなし(_F)"
+msgstr "ノートフィルタ"
 
 #: ../src/gui/filtereditor.py:91
 #: ../src/Filters/Rules/Person/_HasEvent.py:46
-#, fuzzy
 msgid "Personal event:"
-msgstr "手作りの封筒"
+msgstr "個人のイベント"
 
 #: ../src/gui/filtereditor.py:92
 #: ../src/Filters/Rules/Person/_HasFamilyEvent.py:48
 #: ../src/Filters/Rules/Family/_HasEvent.py:45
-#, fuzzy
 msgid "Family event:"
-msgstr "ファミリ名:"
+msgstr "家族のイベント"
 
 #: ../src/gui/filtereditor.py:93
 #: ../src/Filters/Rules/Person/_IsWitness.py:44
 #: ../src/Filters/Rules/Event/_HasData.py:47
 #: ../src/Filters/Rules/Event/_HasType.py:46
-#, fuzzy
 msgid "Event type:"
-msgstr "<b>%i</b> 個のオブジェクト、 種類: <b>%s</b>"
+msgstr "イベントタイプ"
 
 #: ../src/gui/filtereditor.py:94
 #: ../src/Filters/Rules/Person/_HasAttribute.py:45
-#, fuzzy
 msgid "Personal attribute:"
-msgstr "属性名"
+msgstr "個人の属性"
 
 #: ../src/gui/filtereditor.py:95
 #: ../src/Filters/Rules/Person/_HasFamilyAttribute.py:45
 #: ../src/Filters/Rules/Family/_HasAttribute.py:45
-#, fuzzy
 msgid "Family attribute:"
-msgstr "属性名"
+msgstr "家族の属性"
 
 #: ../src/gui/filtereditor.py:96
 #: ../src/Filters/Rules/Event/_HasAttribute.py:45
-#, fuzzy
 msgid "Event attribute:"
-msgstr "属性名"
+msgstr "イベントの属性"
 
 #: ../src/gui/filtereditor.py:97
 #: ../src/Filters/Rules/MediaObject/_HasAttribute.py:45
-#, fuzzy
 msgid "Media attribute:"
-msgstr "属性名"
+msgstr "メディアの属性"
 
 #: ../src/gui/filtereditor.py:98
 #: ../src/Filters/Rules/Person/_HasRelationship.py:47
 #: ../src/Filters/Rules/Family/_HasRelType.py:46
-#, fuzzy
 msgid "Relationship type:"
-msgstr "<b>%i</b> 個のオブジェクト、 種類: <b>%s</b>"
+msgstr "関係の種類"
 
 #: ../src/gui/filtereditor.py:99
 #: ../src/Filters/Rules/Note/_HasNote.py:48
-#, fuzzy
 msgid "Note type:"
-msgstr "<b>%i</b> 個のオブジェクト、 種類: <b>%s</b>"
+msgstr "ノートの種類"
 
 #: ../src/gui/filtereditor.py:100
 #: ../src/Filters/Rules/Person/_HasNameType.py:44
-#, fuzzy
 msgid "Name type:"
-msgstr "ファイル名を入力して下さい"
+msgstr "名前の種類"
 
 #: ../src/gui/filtereditor.py:101
 #: ../src/Filters/Rules/Person/_HasNameOriginType.py:44
-#, fuzzy
 msgid "Surname origin type:"
-msgstr "ノードの種類を変更"
+msgstr "姓の起源の種類"
 
 #: ../src/gui/filtereditor.py:246
-#, fuzzy
 msgid "lesser than"
-msgstr "%s を複数回展開しています"
+msgstr "より少ない"
 
 #: ../src/gui/filtereditor.py:246
-#, fuzzy
 msgid "equal to"
-msgstr "%s に<b>リンク</b>"
+msgstr "に等しい"
 
 #: ../src/gui/filtereditor.py:246
-#, fuzzy
 msgid "greater than"
-msgstr "%s を複数回展開しています"
+msgstr "より多い"
 
 #: ../src/gui/filtereditor.py:284
-#, fuzzy
 msgid "Not a valid ID"
-msgstr "%s は正しいディレクトリではありません。"
+msgstr "有効なIDではありません"
 
 #: ../src/gui/filtereditor.py:309
-#, fuzzy
 msgid "Select..."
-msgstr "選択"
+msgstr "選択..."
 
 #: ../src/gui/filtereditor.py:314
-#, fuzzy, python-format
+#, python-format
 msgid "Select %s from a list"
-msgstr "一覧から削除する"
+msgstr "%s をリストから選択する"
 
 #: ../src/gui/filtereditor.py:378
 msgid "Give or select a source ID, leave empty to find objects with no source."
@@ -4961,35 +4850,30 @@ msgstr ""
 #: ../src/Filters/Rules/Family/_HasEvent.py:47
 #: ../src/Filters/Rules/Event/_HasData.py:47
 #: ../src/glade/mergeevent.glade.h:8
-#, fuzzy
 msgid "Place:"
-msgstr "同じ場所に貼り付け(_I)"
+msgstr "場所:"
 
 #: ../src/gui/filtereditor.py:501
-#, fuzzy
 msgid "Reference count:"
-msgstr "軸カウント:"
+msgstr "参照数:"
 
 #: ../src/gui/filtereditor.py:502
 #: ../src/Filters/Rules/Person/_HasAddress.py:46
 #: ../src/Filters/Rules/Person/_HasAssociation.py:46
 #: ../src/Filters/Rules/Source/_HasRepository.py:44
-#, fuzzy
 msgid "Number of instances:"
-msgstr "浮動小数点数"
+msgstr "インスタンスの数:"
 
 #: ../src/gui/filtereditor.py:505
-#, fuzzy
 msgid "Reference count must be:"
-msgstr "優先度は整数でなければなりません"
+msgstr "参照数はこうでなければなりません: "
 
 #: ../src/gui/filtereditor.py:507
 #: ../src/Filters/Rules/Person/_HasAddress.py:46
 #: ../src/Filters/Rules/Person/_HasAssociation.py:46
 #: ../src/Filters/Rules/Source/_HasRepository.py:44
-#, fuzzy
 msgid "Number must be:"
-msgstr "優先度は整数でなければなりません"
+msgstr "数値はこうでなければなりません: "
 
 #: ../src/gui/filtereditor.py:509
 #: ../src/Filters/Rules/Person/_IsLessThanNthGenerationAncestorOfBookmarked.py:52
@@ -4998,9 +4882,8 @@ msgstr "優先度は整数でなければなりません"
 #: ../src/Filters/Rules/Person/_IsLessThanNthGenerationDescendantOf.py:46
 #: ../src/Filters/Rules/Person/_IsMoreThanNthGenerationAncestorOf.py:46
 #: ../src/Filters/Rules/Person/_IsMoreThanNthGenerationDescendantOf.py:46
-#, fuzzy
 msgid "Number of generations:"
-msgstr "生成数"
+msgstr "世代の数"
 
 #: ../src/gui/filtereditor.py:511
 #: ../src/Filters/Rules/_HasGrampsId.py:46
@@ -5016,15 +4899,13 @@ msgstr "生成数"
 #: ../src/Filters/Rules/Person/_IsMoreThanNthGenerationDescendantOf.py:46
 #: ../src/Filters/Rules/Person/_MatchIdOf.py:45
 #: ../src/Filters/Rules/Person/_RelationshipPathBetween.py:46
-#, fuzzy
 msgid "ID:"
 msgstr "ID:"
 
 #: ../src/gui/filtereditor.py:514
 #: ../src/Filters/Rules/Person/_HasSourceOf.py:45
-#, fuzzy
 msgid "Source ID:"
-msgstr "ガイドライン ID: %s"
+msgstr "ソース ID:"
 
 #: ../src/gui/filtereditor.py:516
 #: ../src/Filters/Rules/Person/_DeepRelationshipPathBetween.py:122
@@ -5035,35 +4916,30 @@ msgstr "ガイドライン ID: %s"
 #: ../src/Filters/Rules/Person/_IsParentOfFilterMatch.py:47
 #: ../src/Filters/Rules/Person/_IsSiblingOfFilterMatch.py:46
 #: ../src/Filters/Rules/Person/_IsSpouseOfFilterMatch.py:47
-#, fuzzy
 msgid "Filter name:"
-msgstr "フィルタ名がありません"
+msgstr "フィルタ名:"
 
 #. filters of another namespace, name may be same as caller!
 #: ../src/gui/filtereditor.py:520
 #: ../src/Filters/Rules/Event/_MatchesPersonFilter.py:51
-#, fuzzy
 msgid "Person filter name:"
-msgstr "フィルタ名がありません"
+msgstr "人物フィルタ名: "
 
 #: ../src/gui/filtereditor.py:522
 #: ../src/Filters/Rules/Person/_MatchesEventFilter.py:52
 #: ../src/Filters/Rules/Place/_MatchesEventFilter.py:50
-#, fuzzy
 msgid "Event filter name:"
-msgstr "フィルタ名がありません"
+msgstr "イベントフィルタ名: "
 
 #: ../src/gui/filtereditor.py:524
 #: ../src/Filters/Rules/Event/_MatchesSourceFilter.py:48
-#, fuzzy
 msgid "Source filter name:"
-msgstr "フィルタ名がありません"
+msgstr "人物フィルタ名: "
 
 #: ../src/gui/filtereditor.py:526
 #: ../src/Filters/Rules/Source/_MatchesRepositoryFilter.py:41
-#, fuzzy
 msgid "Repository filter name:"
-msgstr "フィルタ名がありません"
+msgstr "レポジトリフィルタ名: "
 
 #: ../src/gui/filtereditor.py:530
 #: ../src/Filters/Rules/Person/_IsAncestorOf.py:45
@@ -5073,16 +4949,14 @@ msgid "Inclusive:"
 msgstr ""
 
 #: ../src/gui/filtereditor.py:531
-#, fuzzy
 msgid "Include original person"
-msgstr "オリジナルパターンの扱い:"
+msgstr "本来の人物を含む"
 
 #: ../src/gui/filtereditor.py:532
 #: ../src/Filters/Rules/_HasTextMatchingSubstringOf.py:44
 #: ../src/Filters/Rules/Person/_HasTextMatchingSubstringOf.py:45
-#, fuzzy
 msgid "Case sensitive:"
-msgstr "大/小文字の区別"
+msgstr "大/小文字の区別: "
 
 #: ../src/gui/filtereditor.py:533
 msgid "Use exact case of letters"
@@ -5092,20 +4966,17 @@ msgstr ""
 #: ../src/Filters/Rules/_HasTextMatchingSubstringOf.py:45
 #: ../src/Filters/Rules/Person/_HasNameOf.py:59
 #: ../src/Filters/Rules/Person/_HasTextMatchingSubstringOf.py:46
-#, fuzzy
 msgid "Regular-Expression matching:"
-msgstr "正規表現 %s でマッチングしている際にエラー: %s"
+msgstr "正規表現にマッチする:"
 
 #: ../src/gui/filtereditor.py:535
-#, fuzzy
 msgid "Use regular expression"
-msgstr "%s:%d: 警告: 正規表現に終端がありません"
+msgstr "正規表現を使用する"
 
 #: ../src/gui/filtereditor.py:536
 #: ../src/Filters/Rules/Event/_MatchesPersonFilter.py:51
-#, fuzzy
 msgid "Include Family events:"
-msgstr "フォントファミリの設定"
+msgstr "家族のイベントを含む:"
 
 #: ../src/gui/filtereditor.py:537
 msgid "Also family events where person is wife/husband"
@@ -5116,54 +4987,45 @@ msgstr ""
 #: ../src/Filters/Rules/Family/_HasTag.py:48
 #: ../src/Filters/Rules/MediaObject/_HasTag.py:48
 #: ../src/Filters/Rules/Note/_HasTag.py:48
-#, fuzzy
 msgid "Tag:"
-msgstr "タグ"
+msgstr "タグ:"
 
 #: ../src/gui/filtereditor.py:543
 #: ../src/Filters/Rules/Person/_MatchesSourceConfidence.py:41
 #: ../src/Filters/Rules/Family/_MatchesSourceConfidence.py:41
 #: ../src/Filters/Rules/Event/_MatchesSourceConfidence.py:42
-#, fuzzy
 msgid "Confidence level:"
-msgstr "PostScript level 2"
+msgstr "確信度:"
 
 #: ../src/gui/filtereditor.py:563
-#, fuzzy
 msgid "Rule Name"
-msgstr "属性名"
+msgstr "ルール名"
 
 #: ../src/gui/filtereditor.py:679
 #: ../src/gui/filtereditor.py:690
 #: ../src/glade/rule.glade.h:20
-#, fuzzy
 msgid "No rule selected"
-msgstr "ドキュメントが選択されていません"
+msgstr "ルールが選択されていません"
 
 #: ../src/gui/filtereditor.py:730
-#, fuzzy
 msgid "Define filter"
-msgstr "フィルタの追加"
+msgstr "フィルタの定義"
 
 #: ../src/gui/filtereditor.py:734
-#, fuzzy
 msgid "Values"
-msgstr "値をクリアします"
+msgstr "値"
 
 #: ../src/gui/filtereditor.py:827
-#, fuzzy
 msgid "Add Rule"
-msgstr "三分割法"
+msgstr "ルールを追加"
 
 #: ../src/gui/filtereditor.py:839
-#, fuzzy
 msgid "Edit Rule"
-msgstr "三分割法"
+msgstr "ルールを編集"
 
 #: ../src/gui/filtereditor.py:874
-#, fuzzy
 msgid "Filter Test"
-msgstr "テストエリア"
+msgstr "フィルタテスト"
 
 #. ###############################
 #: ../src/gui/filtereditor.py:1004
@@ -5186,65 +5048,55 @@ msgstr "テストエリア"
 #: ../src/plugins/tool/SortEvents.py:168
 #: ../src/plugins/webreport/NarrativeWeb.py:6431
 #: ../src/plugins/webreport/WebCal.py:1361
-#, fuzzy
 msgid "Filter"
 msgstr "フィルタ"
 
 #: ../src/gui/filtereditor.py:1004
-#, fuzzy
 msgid "Comment"
 msgstr "コメント"
 
 #: ../src/gui/filtereditor.py:1011
-#, fuzzy
 msgid "Custom Filter Editor"
-msgstr "カスタム入力フィルタプ"
+msgstr "カスタムフィルタエディタ"
 
 #: ../src/gui/filtereditor.py:1077
-#, fuzzy
 msgid "Delete Filter?"
-msgstr "フィルタの追加"
+msgstr "フィルタを削除しますか?"
 
 #: ../src/gui/filtereditor.py:1078
 msgid "This filter is currently being used as the base for other filters. Deletingthis filter will result in removing all other filters that depend on it."
 msgstr ""
 
 #: ../src/gui/filtereditor.py:1082
-#, fuzzy
 msgid "Delete Filter"
-msgstr "フィルタの追加"
+msgstr "フィルタの削除"
 
 #: ../src/gui/grampsbar.py:159
 #: ../src/gui/widgets/grampletpane.py:1129
-#, fuzzy
 msgid "Unnamed Gramplet"
-msgstr "無題ドキュメント %d"
+msgstr "無名のGramplet"
 
 #: ../src/gui/grampsbar.py:304
-#, fuzzy
 msgid "Gramps Bar"
-msgstr "バーの高さ:"
+msgstr "Grampsバー"
 
 #: ../src/gui/grampsbar.py:306
 msgid "Right-click to the right of the tab to add a gramplet."
 msgstr ""
 
 #: ../src/gui/grampsgui.py:102
-#, fuzzy
 msgid "Family Trees"
-msgstr "ファミリ名:"
+msgstr "家系図"
 
 #. ('gramps-bookmark', _('Bookmarks'), gtk.gdk.CONTROL_MASK, 0, ''),
 #. ('gramps-bookmark-delete', _('Delete bookmark'), gtk.gdk.CONTROL_MASK, 0, ''),
 #: ../src/gui/grampsgui.py:107
-#, fuzzy
 msgid "_Add bookmark"
-msgstr "ブックマークを追加できませんでした"
+msgstr "_ブックマークを追加"
 
 #: ../src/gui/grampsgui.py:109
-#, fuzzy
 msgid "Configure"
-msgstr "設定は行いません。"
+msgstr "設定"
 
 #: ../src/gui/grampsgui.py:110
 #: ../src/gui/editors/displaytabs/addrembedlist.py:71
@@ -5270,14 +5122,12 @@ msgstr "設定は行いません。"
 #: ../src/plugins/webreport/NarrativeWeb.py:126
 #: ../src/Filters/SideBar/_EventSidebarFilter.py:93
 #: ../src/Filters/SideBar/_MediaSidebarFilter.py:92
-#, fuzzy
 msgid "Date"
 msgstr "日付"
 
 #: ../src/gui/grampsgui.py:111
-#, fuzzy
 msgid "Edit Date"
-msgstr "死亡日"
+msgstr "日付を編集"
 
 #: ../src/gui/grampsgui.py:112
 #: ../src/Merge/mergeperson.py:196
@@ -5293,7 +5143,6 @@ msgstr "死亡日"
 #: ../src/plugins/webreport/NarrativeWeb.py:2686
 #: ../src/plugins/webreport/NarrativeWeb.py:2867
 #: ../src/plugins/webreport/NarrativeWeb.py:4688
-#, fuzzy
 msgid "Events"
 msgstr "イベント"
 
@@ -5306,20 +5155,17 @@ msgid "Fan Chart"
 msgstr ""
 
 #: ../src/gui/grampsgui.py:115
-#, fuzzy
 msgid "Font"
 msgstr "フォント"
 
 #: ../src/gui/grampsgui.py:116
 #: ../src/gui/widgets/styledtexteditor.py:463
-#, fuzzy
 msgid "Font Color"
-msgstr "背景色"
+msgstr "フォント色"
 
 #: ../src/gui/grampsgui.py:117
-#, fuzzy
 msgid "Font Background Color"
-msgstr "背景色の名前"
+msgstr "フォントの背景色"
 
 #: ../src/gui/grampsgui.py:118
 #: ../src/plugins/view/grampletview.py:52
@@ -5358,12 +5204,10 @@ msgid "GeoPlaces"
 msgstr ""
 
 #: ../src/gui/grampsgui.py:126
-#, fuzzy
 msgid "Public"
 msgstr "公開"
 
 #: ../src/gui/grampsgui.py:128
-#, fuzzy
 msgid "Merge"
 msgstr "マージ"
 
@@ -5381,7 +5225,6 @@ msgstr "マージ"
 #: ../src/plugins/view/noteview.py:107
 #: ../src/plugins/view/view.gpr.py:100
 #: ../src/plugins/webreport/NarrativeWeb.py:133
-#, fuzzy
 msgid "Notes"
 msgstr "注記"
 
@@ -5398,19 +5241,16 @@ msgstr "注記"
 #: ../src/plugins/view/relview.py:851
 #: ../src/plugins/view/relview.py:885
 #: ../src/plugins/webreport/NarrativeWeb.py:134
-#, fuzzy
 msgid "Parents"
-msgstr "<b>%i</b> 個の親 (%s) に所属"
+msgstr "親"
 
 #: ../src/gui/grampsgui.py:131
-#, fuzzy
 msgid "Add Parents"
-msgstr "<b>%i</b> 個の親 (%s) に所属"
+msgstr "親を追加"
 
 #: ../src/gui/grampsgui.py:132
-#, fuzzy
 msgid "Select Parents"
-msgstr "<b>%i</b> 個の親 (%s) に所属"
+msgstr "親を選択"
 
 #: ../src/gui/grampsgui.py:133
 #: ../src/plugins/gramplet/gramplet.gpr.py:150
@@ -5429,7 +5269,6 @@ msgstr ""
 #: ../src/plugins/webreport/NarrativeWeb.py:1263
 #: ../src/plugins/webreport/NarrativeWeb.py:2412
 #: ../src/plugins/webreport/NarrativeWeb.py:2526
-#, fuzzy
 msgid "Places"
 msgstr "場所"
 
@@ -5460,14 +5299,12 @@ msgstr ""
 #: ../src/plugins/webreport/NarrativeWeb.py:141
 #: ../src/plugins/webreport/NarrativeWeb.py:3449
 #: ../src/plugins/webreport/NarrativeWeb.py:3525
-#, fuzzy
 msgid "Sources"
-msgstr "辞書ソース"
+msgstr "ソース"
 
 #: ../src/gui/grampsgui.py:140
-#, fuzzy
 msgid "Add Spouse"
-msgstr "エフェクトを追加:"
+msgstr "配偶者を追加"
 
 #: ../src/gui/grampsgui.py:141
 #: ../src/gui/views/tags.py:219
@@ -5479,28 +5316,23 @@ msgstr "エフェクトを追加:"
 #: ../src/Filters/SideBar/_PersonSidebarFilter.py:134
 #: ../src/Filters/SideBar/_MediaSidebarFilter.py:94
 #: ../src/Filters/SideBar/_NoteSidebarFilter.py:96
-#, fuzzy
 msgid "Tag"
 msgstr "タグ"
 
 #: ../src/gui/grampsgui.py:142
 #: ../src/gui/views/tags.py:581
-#, fuzzy
 msgid "New Tag"
-msgstr "タグのテーブル"
+msgstr "新しいタグ"
 
 #: ../src/gui/grampsgui.py:143
-#, fuzzy
 msgid "Tools"
 msgstr "ツール"
 
 #: ../src/gui/grampsgui.py:144
-#, fuzzy
 msgid "Grouped List"
-msgstr "リストをクリア"
+msgstr "グループ化リスト"
 
 #: ../src/gui/grampsgui.py:145
-#, fuzzy
 msgid "List"
 msgstr "リスト"
 
@@ -5511,7 +5343,6 @@ msgstr "リスト"
 #: ../src/plugins/tool/ExtractCity.py:540
 #: ../src/plugins/tool/PatchNames.py:396
 #: ../src/glade/mergedata.glade.h:12
-#, fuzzy
 msgid "Select"
 msgstr "選択"
 
@@ -5520,45 +5351,37 @@ msgstr "選択"
 #: ../src/gui/editors/editperson.py:616
 #: ../src/gui/editors/displaytabs/gallerytab.py:136
 #: ../src/plugins/view/mediaview.py:219
-#, fuzzy
 msgid "View"
 msgstr "ビュー"
 
 #: ../src/gui/grampsgui.py:150
-#, fuzzy
 msgid "Zoom In"
 msgstr "ズームイン"
 
 #: ../src/gui/grampsgui.py:151
-#, fuzzy
 msgid "Zoom Out"
 msgstr "ズームアウト"
 
 #: ../src/gui/grampsgui.py:152
-#, fuzzy
 msgid "Fit Width"
-msgstr "(一定幅)"
+msgstr "ページを幅にあわせる"
 
 #: ../src/gui/grampsgui.py:153
-#, fuzzy
 msgid "Fit Page"
 msgstr "ページを描画全体にあわせる"
 
 #: ../src/gui/grampsgui.py:158
-#, fuzzy
 msgid "Export"
-msgstr "エクスポート(_E)"
+msgstr "エクスポート"
 
 #: ../src/gui/grampsgui.py:159
-#, fuzzy
 msgid "Import"
 msgstr "インポート"
 
 #: ../src/gui/grampsgui.py:161
 #: ../src/Filters/SideBar/_RepoSidebarFilter.py:94
-#, fuzzy
 msgid "URL"
-msgstr "URL:"
+msgstr "URL"
 
 #: ../src/gui/grampsgui.py:173
 msgid "Danger: This is unstable code!"
@@ -5579,9 +5402,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/grampsgui.py:245
-#, fuzzy
 msgid "Error parsing arguments"
-msgstr "オプション %s の解析中にエラー"
+msgstr "オプションの解析中にエラー"
 
 #: ../src/gui/makefilter.py:21
 #, fuzzy, python-format
@@ -5603,9 +5425,8 @@ msgstr ""
 
 #: ../src/gui/utils.py:335
 #: ../src/gui/utils.py:342
-#, fuzzy
 msgid "Error Opening File"
-msgstr "'%s' というファイルをオープンする際にエラー: %s"
+msgstr "ファイルを開く際にエラー"
 
 #. ------------------------------------------------------------------------
 #.
@@ -5615,23 +5436,21 @@ msgstr "'%s' というファイルをオープンする際にエラー: %s"
 #: ../src/gui/viewmanager.py:113
 #: ../src/gui/plug/_dialogs.py:59
 #: ../src/plugins/BookReport.py:95
-#, fuzzy
 msgid "Unsupported"
-msgstr "サポートしていないソケット・アドレスです"
+msgstr "サポートされていません"
 
 #: ../src/gui/viewmanager.py:434
 msgid "There are no available addons of this type"
 msgstr ""
 
 #: ../src/gui/viewmanager.py:435
-#, fuzzy, python-format
+#, python-format
 msgid "Checked for '%s'"
-msgstr "検索条件:"
+msgstr "Checked for '%s'"
 
 #: ../src/gui/viewmanager.py:436
-#, fuzzy
 msgid "' and '"
-msgstr " と "
+msgstr "' と '"
 
 #: ../src/gui/viewmanager.py:447
 msgid "Available Gramps Updates for Addons"
@@ -5658,119 +5477,96 @@ msgid "You need to restart Gramps to see new views."
 msgstr ""
 
 #: ../src/gui/viewmanager.py:573
-#, fuzzy
 msgid "No addons were installed."
-msgstr "%s にキーリングがインストールされていません。"
+msgstr "アドオンがインストールされていません"
 
 #: ../src/gui/viewmanager.py:719
-#, fuzzy
 msgid "Connect to a recent database"
-msgstr "%s:%s (%s) へ接続できませんでした。"
+msgstr "最近のデータベースに接続"
 
 #: ../src/gui/viewmanager.py:737
-#, fuzzy
 msgid "_Family Trees"
-msgstr "ファミリ名:"
+msgstr "_家系図"
 
 #: ../src/gui/viewmanager.py:738
-#, fuzzy
 msgid "_Manage Family Trees..."
-msgstr "フォントファミリの設定"
+msgstr "_家系図を管理..."
 
 #: ../src/gui/viewmanager.py:739
-#, fuzzy
 msgid "Manage databases"
-msgstr "その他のサイズの管理"
+msgstr "データベースを管理"
 
 #: ../src/gui/viewmanager.py:740
-#, fuzzy
 msgid "Open _Recent"
-msgstr "最近開いたファイル(_R)"
+msgstr "最近開いたファイル"
 
 #: ../src/gui/viewmanager.py:741
-#, fuzzy
 msgid "Open an existing database"
-msgstr "既存のドキュメントを開く"
+msgstr "既存のデータベースを開く"
 
 #: ../src/gui/viewmanager.py:742
-#, fuzzy
 msgid "_Quit"
-msgstr "終了(_Q)"
+msgstr "_終了"
 
 #: ../src/gui/viewmanager.py:744
-#, fuzzy
 msgid "_View"
-msgstr "表示(_V)"
+msgstr "_表示"
 
 #: ../src/gui/viewmanager.py:745
-#, fuzzy
 msgid "_Edit"
-msgstr "編集(_E)"
+msgstr "_編集"
 
 #: ../src/gui/viewmanager.py:746
-#, fuzzy
 msgid "_Preferences..."
-msgstr "設定(_P)"
+msgstr "_設定..."
 
 #: ../src/gui/viewmanager.py:748
-#, fuzzy
 msgid "_Help"
-msgstr "ヘルプ(_H)"
+msgstr "_ヘルプ"
 
 #: ../src/gui/viewmanager.py:749
-#, fuzzy
 msgid "Gramps _Home Page"
-msgstr "ページ境界線の色"
+msgstr "Gramps _ホームページ"
 
 #: ../src/gui/viewmanager.py:751
-#, fuzzy
 msgid "Gramps _Mailing Lists"
-msgstr "パッケージリストを読み込んでいます"
+msgstr "Gramps _メーリングリスト"
 
 #: ../src/gui/viewmanager.py:753
-#, fuzzy
 msgid "_Report a Bug"
-msgstr "バグを報告"
+msgstr "_バグを報告"
 
 #: ../src/gui/viewmanager.py:755
-#, fuzzy
 msgid "_Extra Reports/Tools"
-msgstr "US リーガル・エキストラ"
+msgstr "_追加レポート/ツール"
 
 #: ../src/gui/viewmanager.py:757
-#, fuzzy
 msgid "_About"
-msgstr "情報(_A)"
+msgstr "__について"
 
 #: ../src/gui/viewmanager.py:759
-#, fuzzy
 msgid "_Plugin Manager"
-msgstr "現在のマネージャ"
+msgstr "_プラグインマネージャー"
 
 #: ../src/gui/viewmanager.py:761
-#, fuzzy
 msgid "_FAQ"
-msgstr "FAQ"
+msgstr "_FAQ"
 
 #: ../src/gui/viewmanager.py:762
-#, fuzzy
 msgid "_Key Bindings"
-msgstr "キーバインド"
+msgstr "_キーバインド"
 
 #: ../src/gui/viewmanager.py:763
-#, fuzzy
 msgid "_User Manual"
-msgstr "Inkscape マニュアル (英語)"
+msgstr "_ユーザーマニュアル"
 
 #: ../src/gui/viewmanager.py:770
-#, fuzzy
 msgid "_Export..."
-msgstr "エクスポート(_E)"
+msgstr "_エクスポート..."
 
 #: ../src/gui/viewmanager.py:772
-#, fuzzy
 msgid "Make Backup..."
-msgstr "バックアップタイプ"
+msgstr "バックアップを作成..."
 
 #: ../src/gui/viewmanager.py:773
 msgid "Make a Gramps XML backup of the database"
@@ -5786,9 +5582,8 @@ msgid "_Reports"
 msgstr ""
 
 #: ../src/gui/viewmanager.py:777
-#, fuzzy
 msgid "Open the reports dialog"
-msgstr "LPE ダイアログを開く"
+msgstr "レポート画面を開く"
 
 #: ../src/gui/viewmanager.py:778
 #, fuzzy
@@ -5806,9 +5601,8 @@ msgid "Clip_board"
 msgstr "クリップ先:"
 
 #: ../src/gui/viewmanager.py:818
-#, fuzzy
 msgid "Open the Clipboard dialog"
-msgstr "LPE ダイアログを開く"
+msgstr "クリップボードダイアログを開く"
 
 #: ../src/gui/viewmanager.py:819
 #, fuzzy
@@ -5822,9 +5616,8 @@ msgid "_Tools"
 msgstr "ツール"
 
 #: ../src/gui/viewmanager.py:822
-#, fuzzy
 msgid "Open the tools dialog"
-msgstr "LPE ダイアログを開く"
+msgstr "ツールダイアログを開く"
 
 #: ../src/gui/viewmanager.py:823
 #, fuzzy
@@ -5837,18 +5630,16 @@ msgid "_Configure View..."
 msgstr "ビューを除去"
 
 #: ../src/gui/viewmanager.py:826
-#, fuzzy
 msgid "Configure the active view"
-msgstr "カラーマネジメント表示"
+msgstr "アクティブなビューを設定する"
 
 #: ../src/gui/viewmanager.py:831
 msgid "_Navigator"
 msgstr ""
 
 #: ../src/gui/viewmanager.py:833
-#, fuzzy
 msgid "_Toolbar"
-msgstr "高さ"
+msgstr "_ツールバー"
 
 #: ../src/gui/viewmanager.py:835
 #, fuzzy
@@ -5863,60 +5654,52 @@ msgstr "元に戻す(_U)"
 
 #: ../src/gui/viewmanager.py:845
 #: ../src/gui/viewmanager.py:1439
-#, fuzzy
 msgid "_Redo"
-msgstr "やり直し(_R)"
+msgstr "_やり直し"
 
 #: ../src/gui/viewmanager.py:851
-#, fuzzy
 msgid "Undo History..."
-msgstr "元に戻す操作の履歴を表示します。"
+msgstr "元に戻す操作の履歴を表示します..."
 
 #: ../src/gui/viewmanager.py:865
-#, fuzzy, python-format
+#, python-format
 msgid "Key %s is not bound"
-msgstr "%s は正しいディレクトリではありません。"
+msgstr "キー %s が見つかりません"
 
 #. load plugins
 #: ../src/gui/viewmanager.py:966
-#, fuzzy
 msgid "Loading plugins..."
-msgstr "利用可能なプラグインの一覧"
+msgstr "プラグインをロードしています..."
 
 #: ../src/gui/viewmanager.py:973
 #: ../src/gui/viewmanager.py:988
-#, fuzzy
 msgid "Ready"
-msgstr "準備完了。"
+msgstr "準備完了"
 
 #. registering plugins
 #: ../src/gui/viewmanager.py:981
-#, fuzzy
 msgid "Registering plugins..."
-msgstr "利用可能なプラグインの一覧"
+msgstr "プラグインを登録しています..."
 
 #: ../src/gui/viewmanager.py:1018
 msgid "Autobackup..."
 msgstr ""
 
 #: ../src/gui/viewmanager.py:1022
-#, fuzzy
 msgid "Error saving backup data"
-msgstr "バックアップの作成"
+msgstr "バックアップデータのセーブでエラーが発生しました"
 
 #: ../src/gui/viewmanager.py:1033
-#, fuzzy
 msgid "Abort changes?"
-msgstr "変更を保存"
+msgstr "変更を破棄しますか?"
 
 #: ../src/gui/viewmanager.py:1034
 msgid "Aborting changes will return the database to the state it was before you started this editing session."
 msgstr ""
 
 #: ../src/gui/viewmanager.py:1036
-#, fuzzy
 msgid "Abort changes"
-msgstr "変更を保存"
+msgstr "変更を破棄"
 
 #: ../src/gui/viewmanager.py:1046
 msgid "Cannot abandon session's changes"
@@ -5931,39 +5714,33 @@ msgid "View failed to load. Check error output."
 msgstr ""
 
 #: ../src/gui/viewmanager.py:1340
-#, fuzzy
 msgid "Import Statistics"
-msgstr "インポート設定"
+msgstr "インポート統計"
 
 #: ../src/gui/viewmanager.py:1391
-#, fuzzy
 msgid "Read Only"
-msgstr "                                (C++ 言語のみ)\n"
+msgstr "読み取り専用"
 
 #: ../src/gui/viewmanager.py:1474
-#, fuzzy
 msgid "Gramps XML Backup"
-msgstr "XML サブツリーのドラッグ"
+msgstr "Gramps XML バックアップ"
 
 #: ../src/gui/viewmanager.py:1484
 #: ../src/Filters/Rules/MediaObject/_HasMedia.py:49
 #: ../src/glade/editmedia.glade.h:8
 #: ../src/glade/mergemedia.glade.h:7
-#, fuzzy
 msgid "Path:"
 msgstr "パス:"
 
 #: ../src/gui/viewmanager.py:1504
 #: ../src/plugins/import/importgedcom.glade.h:11
 #: ../src/plugins/tool/phpgedview.glade.h:3
-#, fuzzy
 msgid "File:"
-msgstr "ファイル(_F)"
+msgstr "ファイル:"
 
 #: ../src/gui/viewmanager.py:1536
-#, fuzzy
 msgid "Media:"
-msgstr "メディアボックス"
+msgstr "メディア:"
 
 #. #################
 #. What to include
@@ -5976,65 +5753,56 @@ msgstr "メディアボックス"
 #: ../src/plugins/textreport/DetDescendantReport.py:920
 #: ../src/plugins/textreport/FamilyGroup.py:631
 #: ../src/plugins/webreport/NarrativeWeb.py:6594
-#, fuzzy
 msgid "Include"
-msgstr "非表示のオブジェクトを含む(_H)"
+msgstr "含む"
 
 #: ../src/gui/viewmanager.py:1542
 #: ../src/plugins/gramplet/StatsGramplet.py:190
-#, fuzzy
 msgid "Megabyte|MB"
-msgstr "%.1f MB"
+msgstr "メガバイト|MB"
 
 #: ../src/gui/viewmanager.py:1543
 #: ../src/plugins/webreport/NarrativeWeb.py:6588
-#, fuzzy
 msgid "Exclude"
-msgstr "<small>タイルを考慮しない:</small>"
+msgstr "排除する"
 
 #: ../src/gui/viewmanager.py:1560
 msgid "Backup file already exists! Overwrite?"
 msgstr ""
 
 #: ../src/gui/viewmanager.py:1561
-#, fuzzy, python-format
+#, python-format
 msgid "The file '%s' exists."
-msgstr "対象となるファイルが存在しています"
+msgstr "ファイル '%s' が存在しています"
 
 #: ../src/gui/viewmanager.py:1562
-#, fuzzy
 msgid "Proceed and overwrite"
-msgstr "%s -> %s と %s/%s の diversion を上書きしようとしています"
+msgstr "継続して上書きする"
 
 #: ../src/gui/viewmanager.py:1563
-#, fuzzy
 msgid "Cancel the backup"
-msgstr "バックアップタイプ"
+msgstr "バックアップをキャンセル"
 
 #: ../src/gui/viewmanager.py:1570
-#, fuzzy
 msgid "Making backup..."
-msgstr "バックアップタイプ"
+msgstr "バックアップを作成しています..."
 
 #: ../src/gui/viewmanager.py:1587
-#, fuzzy, python-format
+#, python-format
 msgid "Backup saved to '%s'"
-msgstr "%s。ドラッグで<b>move</b>します。"
+msgstr "バックアップが '%s' へ保存されました"
 
 #: ../src/gui/viewmanager.py:1590
-#, fuzzy
 msgid "Backup aborted"
-msgstr "バックアップタイプ"
+msgstr "バックアップが中断されました"
 
 #: ../src/gui/viewmanager.py:1608
-#, fuzzy
 msgid "Select backup directory"
-msgstr "%s には \"-d ディレクトリ\" の指定が必要です"
+msgstr "バックアップするフォルダを選択してください"
 
 #: ../src/gui/viewmanager.py:1873
-#, fuzzy
 msgid "Failed Loading Plugin"
-msgstr "アイコンの読み込みでエラー: %s"
+msgstr "プラグインの読み込みに失敗しました"
 
 #: ../src/gui/viewmanager.py:1874
 msgid ""
@@ -6043,9 +5811,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/viewmanager.py:1914
-#, fuzzy
 msgid "Failed Loading View"
-msgstr "カラーマネジメント表示"
+msgstr "ビューの読み込みに失敗しました"
 
 #: ../src/gui/viewmanager.py:1915
 #, python-format
@@ -6055,29 +5822,25 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/editors/addmedia.py:95
-#, fuzzy
 msgid "Select a media object"
-msgstr "連結する<b>オブジェクト</b>を選択してください。"
+msgstr "メディアオブジェクトを選択してください"
 
 #: ../src/gui/editors/addmedia.py:137
-#, fuzzy
 msgid "Select media object"
-msgstr "連結する<b>オブジェクト</b>を選択してください。"
+msgstr "メディアオブジェクトの選択"
 
 #: ../src/gui/editors/addmedia.py:147
-#, fuzzy
 msgid "Import failed"
-msgstr "%s サブプロセスが失敗しました"
+msgstr "インポートに失敗しました"
 
 #: ../src/gui/editors/addmedia.py:148
-#, fuzzy
 msgid "The filename supplied could not be found."
-msgstr "メソッドドライバ %s が見つかりません。"
+msgstr "ファイルが見つかりません"
 
 #: ../src/gui/editors/addmedia.py:158
-#, fuzzy, python-format
+#, python-format
 msgid "Cannot import %s"
-msgstr "インポート設定"
+msgstr "%s がインポートできません"
 
 #: ../src/gui/editors/addmedia.py:159
 #, python-format
@@ -6085,9 +5848,9 @@ msgid "Directory specified in preferences: Base path for relative media paths: %
 msgstr ""
 
 #: ../src/gui/editors/addmedia.py:222
-#, fuzzy, python-format
+#, python-format
 msgid "Cannot display %s"
-msgstr "ディスプレイをオープンできません: %s"
+msgstr "%s を表示できません"
 
 #: ../src/gui/editors/addmedia.py:223
 msgid "Gramps is not able to display the image file. This may be caused by a corrupt file."
@@ -6102,25 +5865,21 @@ msgid "No place given, click button to select one"
 msgstr ""
 
 #: ../src/gui/editors/objectentries.py:252
-#, fuzzy
 msgid "Edit place"
-msgstr "外部で編集..."
+msgstr "場所を編集"
 
 #: ../src/gui/editors/objectentries.py:253
-#, fuzzy
 msgid "Select an existing place"
-msgstr "同じ場所に貼り付け(_I)"
+msgstr "既存の場所を選択"
 
 #: ../src/gui/editors/objectentries.py:254
 #: ../src/plugins/lib/libplaceview.py:117
-#, fuzzy
 msgid "Add a new place"
-msgstr "新規として追加"
+msgstr "新しい場所を追加"
 
 #: ../src/gui/editors/objectentries.py:255
-#, fuzzy
 msgid "Remove place"
-msgstr "なし (除去)"
+msgstr "場所を削除"
 
 #: ../src/gui/editors/objectentries.py:300
 msgid "To select a media object, use drag-and-drop or use the buttons"
@@ -6132,26 +5891,22 @@ msgid "No image given, click button to select one"
 msgstr ""
 
 #: ../src/gui/editors/objectentries.py:303
-#, fuzzy
 msgid "Edit media object"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "メディアオブジェクトを編集"
 
 #: ../src/gui/editors/objectentries.py:304
 #: ../src/gui/plug/_guioptions.py:1026
-#, fuzzy
 msgid "Select an existing media object"
-msgstr "連結する<b>オブジェクト</b>を選択してください。"
+msgstr "既存のメディアオブジェクトを選択してください"
 
 #: ../src/gui/editors/objectentries.py:305
 #: ../src/plugins/view/mediaview.py:109
-#, fuzzy
 msgid "Add a new media object"
-msgstr "接続点を追加"
+msgstr "新しいメディアオブジェクトを追加"
 
 #: ../src/gui/editors/objectentries.py:306
-#, fuzzy
 msgid "Remove media object"
-msgstr "オブジェクトの変形を解除します。"
+msgstr "メディアオブジェクトを削除"
 
 #: ../src/gui/editors/objectentries.py:351
 msgid "To select a note, use drag-and-drop or use the buttons"
@@ -6165,49 +5920,41 @@ msgstr ""
 #: ../src/gui/editors/objectentries.py:354
 #: ../src/gui/editors/editnote.py:284
 #: ../src/gui/editors/editnote.py:329
-#, fuzzy
 msgid "Edit Note"
-msgstr "メモを追加:"
+msgstr "メモを編集する"
 
 #: ../src/gui/editors/objectentries.py:355
 #: ../src/gui/plug/_guioptions.py:922
-#, fuzzy
 msgid "Select an existing note"
-msgstr "注意、'%2$s' の代わりに '%1$s' を選択しています\n"
+msgstr "既存のノートを選択してください"
 
 #: ../src/gui/editors/objectentries.py:356
 #: ../src/plugins/view/noteview.py:89
-#, fuzzy
 msgid "Add a new note"
-msgstr "新規として追加"
+msgstr "新しいノートを追加"
 
 #: ../src/gui/editors/objectentries.py:357
-#, fuzzy
 msgid "Remove note"
-msgstr "メモを追加:"
+msgstr "ノートを削除"
 
 #: ../src/gui/editors/editaddress.py:82
 #: ../src/gui/editors/editaddress.py:152
-#, fuzzy
 msgid "Address Editor"
-msgstr "ビットマップエディタ:"
+msgstr "アドレスエディタ"
 
 #: ../src/gui/editors/editattribute.py:83
 #: ../src/gui/editors/editattribute.py:132
-#, fuzzy
 msgid "Attribute Editor"
-msgstr "ビットマップエディタ:"
+msgstr "属性エディタ"
 
 #: ../src/gui/editors/editattribute.py:126
 #: ../src/gui/editors/editattribute.py:130
-#, fuzzy
 msgid "New Attribute"
-msgstr "属性名"
+msgstr "新しい属性"
 
 #: ../src/gui/editors/editattribute.py:144
-#, fuzzy
 msgid "Cannot save attribute"
-msgstr "挿入する属性"
+msgstr "属性を保存できません"
 
 #: ../src/gui/editors/editattribute.py:145
 msgid "The attribute type cannot be empty"
@@ -6215,14 +5962,12 @@ msgstr ""
 
 #: ../src/gui/editors/editchildref.py:95
 #: ../src/gui/editors/editchildref.py:166
-#, fuzzy
 msgid "Child Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "子供の参照エディタ"
 
 #: ../src/gui/editors/editchildref.py:166
-#, fuzzy
 msgid "Child Reference"
-msgstr "基準セグメント"
+msgstr "子供の参照"
 
 #: ../src/gui/editors/editevent.py:63
 msgid "manual|Editing_Information_About_Events"
@@ -6230,15 +5975,14 @@ msgstr ""
 
 #: ../src/gui/editors/editevent.py:97
 #: ../src/gui/editors/editeventref.py:233
-#, fuzzy, python-format
+#, python-format
 msgid "Event: %s"
-msgstr "サウンドを有効にするかどうか"
+msgstr "イベント: %s"
 
 #: ../src/gui/editors/editevent.py:99
 #: ../src/gui/editors/editeventref.py:235
-#, fuzzy
 msgid "New Event"
-msgstr "新規(_N)"
+msgstr "新しいイベント"
 
 #: ../src/gui/editors/editevent.py:220
 #: ../src/plugins/view/geoevents.py:319
@@ -6247,15 +5991,13 @@ msgstr "新規(_N)"
 #: ../src/plugins/view/geoperson.py:409
 #: ../src/plugins/view/geoperson.py:429
 #: ../src/plugins/view/geoperson.py:467
-#, fuzzy
 msgid "Edit Event"
-msgstr "外部で編集..."
+msgstr "イベントを編集"
 
 #: ../src/gui/editors/editevent.py:228
 #: ../src/gui/editors/editevent.py:251
-#, fuzzy
 msgid "Cannot save event"
-msgstr "サウンドを有効にするかどうか"
+msgstr "イベントを保存できません"
 
 #: ../src/gui/editors/editevent.py:229
 msgid "No data exists for this event. Please enter data or cancel the edit."
@@ -6280,25 +6022,24 @@ msgid "The event type cannot be empty"
 msgstr ""
 
 #: ../src/gui/editors/editevent.py:257
-#, fuzzy, python-format
+#, python-format
 msgid "Add Event (%s)"
-msgstr "エフェクトを追加:"
+msgstr "イベントを追加 (%s)"
 
 #: ../src/gui/editors/editevent.py:263
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Event (%s)"
-msgstr "外部で編集..."
+msgstr "イベントを編集 (%s)"
 
 #: ../src/gui/editors/editevent.py:335
-#, fuzzy, python-format
+#, python-format
 msgid "Delete Event (%s)"
-msgstr "全て削除"
+msgstr "イベントを削除 (%s)"
 
 #: ../src/gui/editors/editeventref.py:66
 #: ../src/gui/editors/editeventref.py:236
-#, fuzzy
 msgid "Event Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "イベント参照エディタ"
 
 #: ../src/gui/editors/editeventref.py:83
 #: ../src/gui/editors/editmediaref.py:99
@@ -6309,28 +6050,24 @@ msgid "_General"
 msgstr "<b>一般</b>"
 
 #: ../src/gui/editors/editeventref.py:241
-#, fuzzy
 msgid "Modify Event"
-msgstr "パスの変形"
+msgstr "イベントの変更"
 
 #: ../src/gui/editors/editeventref.py:244
-#, fuzzy
 msgid "Add Event"
-msgstr "エフェクトを追加:"
+msgstr "イベントの追加"
 
 #: ../src/gui/editors/editfamily.py:102
 msgid "Create a new person and add the child to the family"
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:103
-#, fuzzy
 msgid "Remove the child from the family"
-msgstr "選択オブジェクトからマスクを削除します。"
+msgstr "子供を家族から削除する"
 
 #: ../src/gui/editors/editfamily.py:104
-#, fuzzy
 msgid "Edit the child reference"
-msgstr "シンボル参照が間違っています"
+msgstr "子供の参照を編集する"
 
 #: ../src/gui/editors/editfamily.py:105
 msgid "Add an existing person as a child of the family"
@@ -6388,7 +6125,6 @@ msgstr ""
 #: ../src/plugins/quickview/SameSurnames.py:108
 #: ../src/plugins/quickview/SameSurnames.py:150
 #: ../src/plugins/quickview/siblings.py:47
-#, fuzzy
 msgid "Birth Date"
 msgstr "誕生日"
 
@@ -6399,23 +6135,20 @@ msgstr "誕生日"
 #: ../src/plugins/lib/libpersonview.py:96
 #: ../src/plugins/quickview/lineage.py:60
 #: ../src/plugins/quickview/lineage.py:91
-#, fuzzy
 msgid "Death Date"
 msgstr "死亡日"
 
 #: ../src/gui/editors/editfamily.py:119
 #: ../src/gui/selectors/selectperson.py:78
 #: ../src/plugins/lib/libpersonview.py:95
-#, fuzzy
 msgid "Birth Place"
-msgstr "誕生日"
+msgstr "誕生場所"
 
 #: ../src/gui/editors/editfamily.py:120
 #: ../src/gui/selectors/selectperson.py:80
 #: ../src/plugins/lib/libpersonview.py:97
-#, fuzzy
 msgid "Death Place"
-msgstr "死亡日"
+msgstr "死亡場所"
 
 #: ../src/gui/editors/editfamily.py:128
 #: ../src/plugins/export/exportcsv.glade.h:2
@@ -6423,26 +6156,22 @@ msgid "Chil_dren"
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:133
-#, fuzzy
 msgid "Edit child"
-msgstr "子ウィジェットの上"
+msgstr "子供を編集"
 
 #: ../src/gui/editors/editfamily.py:136
-#, fuzzy
 msgid "Add an existing child"
-msgstr "子ウィジェットをパッキングする向き"
+msgstr "既存の子供を追加"
 
 #: ../src/gui/editors/editfamily.py:138
-#, fuzzy
 msgid "Edit relationship"
-msgstr "外部で編集..."
+msgstr "関係を編集"
 
 #: ../src/gui/editors/editfamily.py:249
 #: ../src/gui/editors/editfamily.py:262
 #: ../src/plugins/view/relview.py:1522
-#, fuzzy
 msgid "Select Child"
-msgstr "子ウィジェットの上"
+msgstr "子供を選択"
 
 #: ../src/gui/editors/editfamily.py:447
 msgid "Adding parents to a person"
@@ -6453,9 +6182,8 @@ msgid "It is possible to accidentally create multiple families with the same par
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:542
-#, fuzzy
 msgid "Family has changed"
-msgstr "不透明コントロールあり"
+msgstr "家族が変更されました"
 
 #: ../src/gui/editors/editfamily.py:543
 #, python-format
@@ -6467,22 +6195,19 @@ msgstr ""
 #: ../src/gui/editors/editfamily.py:548
 #: ../src/plugins/import/ImportCsv.py:219
 #: ../src/plugins/view/familyview.py:257
-#, fuzzy
 msgid "family"
-msgstr "ファミリ(_F):"
+msgstr "家族"
 
 #: ../src/gui/editors/editfamily.py:578
 #: ../src/gui/editors/editfamily.py:581
-#, fuzzy
 msgid "New Family"
-msgstr "ファミリ名:"
+msgstr "新しい家族"
 
 #: ../src/gui/editors/editfamily.py:585
 #: ../src/gui/editors/editfamily.py:1089
 #: ../src/plugins/view/geofamily.py:363
-#, fuzzy
 msgid "Edit Family"
-msgstr "ファミリ名:"
+msgstr "家族を編集"
 
 #: ../src/gui/editors/editfamily.py:618
 msgid "Select a person as the mother"
@@ -6509,19 +6234,16 @@ msgid "Remove the person as the father"
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:833
-#, fuzzy
 msgid "Select Mother"
-msgstr "全て選択(_L)"
+msgstr "母親を選択"
 
 #: ../src/gui/editors/editfamily.py:878
-#, fuzzy
 msgid "Select Father"
-msgstr "全て選択(_L)"
+msgstr "父親を選択"
 
 #: ../src/gui/editors/editfamily.py:902
-#, fuzzy
 msgid "Duplicate Family"
-msgstr "ファミリ名:"
+msgstr "重複する家族"
 
 #: ../src/gui/editors/editfamily.py:903
 msgid "A family with these parents already exists in the database. If you save, you will create a duplicate family. It is recommended that you cancel the editing of this window, and select the existing family"
@@ -6541,9 +6263,9 @@ msgstr ""
 #: ../src/plugins/view/relview.py:1040
 #: ../src/plugins/view/relview.py:1121
 #: ../src/plugins/view/relview.py:1227
-#, fuzzy, python-format
+#, python-format
 msgid "Edit %s"
-msgstr "編集"
+msgstr "%s を編集"
 
 #: ../src/gui/editors/editfamily.py:1021
 msgid "A father cannot be his own child"
@@ -6564,9 +6286,8 @@ msgid "%s is listed as both the mother and child of the family."
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:1039
-#, fuzzy
 msgid "Cannot save family"
-msgstr "フォントファミリの設定"
+msgstr "家族が保存できません"
 
 #: ../src/gui/editors/editfamily.py:1040
 msgid "No data exists for this family. Please enter data or cancel the edit."
@@ -6583,17 +6304,15 @@ msgid "You have attempted to use the existing Gramps ID with value %(id)s. This 
 msgstr ""
 
 #: ../src/gui/editors/editfamily.py:1063
-#, fuzzy
 msgid "Add Family"
-msgstr "ファミリ名:"
+msgstr "家族を追加"
 
 #: ../src/gui/editors/editldsord.py:149
 #: ../src/gui/editors/editldsord.py:302
 #: ../src/gui/editors/editldsord.py:339
 #: ../src/gui/editors/editldsord.py:422
-#, fuzzy
 msgid "LDS Ordinance Editor"
-msgstr "エディタデータを保持する"
+msgstr "LDS儀式エディタ"
 
 #: ../src/gui/editors/editldsord.py:275
 #, python-format
@@ -6616,37 +6335,32 @@ msgid "LDS Ordinance"
 msgstr ""
 
 #: ../src/gui/editors/editlocation.py:51
-#, fuzzy
 msgid "Location Editor"
-msgstr "ビットマップエディタ:"
+msgstr "位置エディタ"
 
 #: ../src/gui/editors/editlink.py:77
 #: ../src/gui/editors/editlink.py:201
-#, fuzzy
 msgid "Link Editor"
-msgstr "ビットマップエディタ:"
+msgstr "リンクエディタ"
 
 #: ../src/gui/editors/editlink.py:80
-#, fuzzy
 msgid "Internet Address"
-msgstr "サポートしていないソケット・アドレスです"
+msgstr "インターネットアドレス"
 
 #: ../src/gui/editors/editmedia.py:88
 #: ../src/gui/editors/editmediaref.py:407
-#, fuzzy, python-format
+#, python-format
 msgid "Media: %s"
-msgstr "メディアボックス"
+msgstr "メディア: %s"
 
 #: ../src/gui/editors/editmedia.py:90
 #: ../src/gui/editors/editmediaref.py:409
-#, fuzzy
 msgid "New Media"
-msgstr "メディアボックス"
+msgstr "新しいメディア"
 
 #: ../src/gui/editors/editmedia.py:229
-#, fuzzy
 msgid "Edit Media Object"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "メディアオブジェクトを編集"
 
 #: ../src/gui/editors/editmedia.py:267
 msgid "Cannot save media object"
@@ -6662,39 +6376,35 @@ msgstr ""
 
 #: ../src/gui/editors/editmedia.py:295
 #: ../src/gui/editors/editmediaref.py:595
-#, fuzzy, python-format
+#, python-format
 msgid "Add Media Object (%s)"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "メディアオブジェクトを追加 (%s)"
 
 #: ../src/gui/editors/editmedia.py:300
 #: ../src/gui/editors/editmediaref.py:591
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Media Object (%s)"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "メディアオブジェクトを編集 (%s)"
 
 #: ../src/gui/editors/editmedia.py:339
-#, fuzzy
 msgid "Remove Media Object"
-msgstr "オブジェクトの変形を解除します。"
+msgstr "メディアオブジェクトを削除"
 
 #: ../src/gui/editors/editmediaref.py:80
 #: ../src/gui/editors/editmediaref.py:410
-#, fuzzy
 msgid "Media Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "メディア参照エディタ"
 
 #: ../src/gui/editors/editmediaref.py:82
 #: ../src/gui/editors/editmediaref.py:83
 #: ../src/glade/editmediaref.glade.h:20
-#, fuzzy
 msgid "Y coordinate|Y"
-msgstr "X 座標"
+msgstr "Y座標|Y"
 
 #: ../src/gui/editors/editname.py:118
 #: ../src/gui/editors/editname.py:305
-#, fuzzy
 msgid "Name Editor"
-msgstr "ビットマップエディタ:"
+msgstr "名前エディタ"
 
 #: ../src/gui/editors/editname.py:168
 #: ../src/gui/editors/editperson.py:301
@@ -6702,9 +6412,8 @@ msgid "Call name must be the given name that is normally used."
 msgstr ""
 
 #: ../src/gui/editors/editname.py:304
-#, fuzzy
 msgid "New Name"
-msgstr "新しいフォルダの種類"
+msgstr "新しい名前"
 
 #: ../src/gui/editors/editname.py:371
 msgid "Break global name grouping?"
@@ -6720,9 +6429,8 @@ msgid "Continue"
 msgstr ""
 
 #: ../src/gui/editors/editname.py:377
-#, fuzzy
 msgid "Return to Name Editor"
-msgstr "使用するデフォルトのフォント名"
+msgstr "名前エディタに戻る"
 
 #: ../src/gui/editors/editname.py:402
 msgid "Group all people with the same name?"
@@ -6734,14 +6442,12 @@ msgid "You have the choice of grouping all people with the name of %(surname)s w
 msgstr ""
 
 #: ../src/gui/editors/editname.py:408
-#, fuzzy
 msgid "Group all"
-msgstr "全てのビットマップイメージ"
+msgstr "グループ全て"
 
 #: ../src/gui/editors/editname.py:409
-#, fuzzy
 msgid "Group this name only"
-msgstr "次の名前のファイルだけ使用する:"
+msgstr "この名前のみグループ化"
 
 #: ../src/gui/editors/editnote.py:141
 #, fuzzy, python-format
@@ -6749,9 +6455,9 @@ msgid "Note: %(id)s - %(context)s"
 msgstr "このメッセージのコンテキストを表示します"
 
 #: ../src/gui/editors/editnote.py:146
-#, fuzzy, python-format
+#, python-format
 msgid "Note: %s"
-msgstr "メモを追加:"
+msgstr "ノート: %s"
 
 #: ../src/gui/editors/editnote.py:149
 #, fuzzy, python-format
@@ -6759,19 +6465,16 @@ msgid "New Note - %(context)s"
 msgstr "このメッセージのコンテキストを表示します"
 
 #: ../src/gui/editors/editnote.py:153
-#, fuzzy
 msgid "New Note"
-msgstr "メモを追加:"
+msgstr "新しいノート"
 
 #: ../src/gui/editors/editnote.py:182
-#, fuzzy
 msgid "_Note"
-msgstr "メモを追加:"
+msgstr "_ノート"
 
 #: ../src/gui/editors/editnote.py:303
-#, fuzzy
 msgid "Cannot save note"
-msgstr "注意、'%2$s' の代わりに '%1$s' を選択しています\n"
+msgstr "ノートを保存できません"
 
 #: ../src/gui/editors/editnote.py:304
 msgid "No data exists for this note. Please enter data or cancel the edit."
@@ -6782,55 +6485,48 @@ msgid "Cannot save note. ID already exists."
 msgstr ""
 
 #: ../src/gui/editors/editnote.py:324
-#, fuzzy
 msgid "Add Note"
 msgstr "メモを追加:"
 
 #: ../src/gui/editors/editnote.py:344
-#, fuzzy, python-format
+#, python-format
 msgid "Delete Note (%s)"
-msgstr "メモを追加:"
+msgstr "ノート (%s) を削除"
 
 #: ../src/gui/editors/editperson.py:148
-#, fuzzy, python-format
+#, python-format
 msgid "Person: %(name)s"
-msgstr "属性名"
+msgstr "人物: %(name)s"
 
 #: ../src/gui/editors/editperson.py:152
-#, fuzzy, python-format
+#, python-format
 msgid "New Person: %(name)s"
-msgstr "新しいフォルダの種類"
+msgstr "新しい人物: %(name)s"
 
 #: ../src/gui/editors/editperson.py:154
-#, fuzzy
 msgid "New Person"
-msgstr "新規(_N)"
+msgstr "新しい人物"
 
 #: ../src/gui/editors/editperson.py:573
 #: ../src/plugins/view/geofamily.py:367
-#, fuzzy
 msgid "Edit Person"
-msgstr "外部で編集..."
+msgstr "人物を編集"
 
 #: ../src/gui/editors/editperson.py:617
-#, fuzzy
 msgid "Edit Object Properties"
-msgstr "ガイドのプロパティ設定"
+msgstr "オブジェクトプロパティを編集"
 
 #: ../src/gui/editors/editperson.py:656
-#, fuzzy
 msgid "Make Active Person"
-msgstr "プレビュー・ウィジェット有効"
+msgstr "アクティブな人物を作成"
 
 #: ../src/gui/editors/editperson.py:660
-#, fuzzy
 msgid "Make Home Person"
-msgstr "角をシャープに"
+msgstr "Make Home Person"
 
 #: ../src/gui/editors/editperson.py:771
-#, fuzzy
 msgid "Problem changing the gender"
-msgstr "ファイル %s のクローズ中に問題が発生しました"
+msgstr "性別の変更中に問題が発生しました"
 
 #: ../src/gui/editors/editperson.py:772
 msgid ""
@@ -6839,9 +6535,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/editors/editperson.py:783
-#, fuzzy
 msgid "Cannot save person"
-msgstr "SVG として保存(_S)"
+msgstr "人物を保存できません"
 
 #: ../src/gui/editors/editperson.py:784
 msgid "No data exists for this person. Please enter data or cancel the edit."
@@ -6852,14 +6547,14 @@ msgid "Cannot save person. ID already exists."
 msgstr ""
 
 #: ../src/gui/editors/editperson.py:825
-#, fuzzy, python-format
+#, python-format
 msgid "Add Person (%s)"
-msgstr "エフェクトを追加:"
+msgstr "人物を追加 (%s)"
 
 #: ../src/gui/editors/editperson.py:831
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Person (%s)"
-msgstr "外部で編集..."
+msgstr "人物を編集 (%s)"
 
 #: ../src/gui/editors/editperson.py:920
 #: ../src/gui/editors/displaytabs/gallerytab.py:254
@@ -6867,9 +6562,8 @@ msgid "Non existing media found in the Gallery"
 msgstr ""
 
 #: ../src/gui/editors/editperson.py:1056
-#, fuzzy
 msgid "Unknown gender specified"
-msgstr "不明なプロトコルが指定されました"
+msgstr "未知の性別が指定されました"
 
 #: ../src/gui/editors/editperson.py:1058
 msgid "The gender of the person is currently unknown. Usually, this is a mistake. Please specify the gender."
@@ -6884,44 +6578,38 @@ msgid "_Female"
 msgstr ""
 
 #: ../src/gui/editors/editperson.py:1063
-#, fuzzy
 msgid "_Unknown"
-msgstr "不明"
+msgstr "_不明"
 
 #: ../src/gui/editors/editpersonref.py:83
 #: ../src/gui/editors/editpersonref.py:160
-#, fuzzy
 msgid "Person Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "人物参照エディタ"
 
 #: ../src/gui/editors/editpersonref.py:160
-#, fuzzy
 msgid "Person Reference"
-msgstr "基準セグメント"
+msgstr "人物参照"
 
 #: ../src/gui/editors/editpersonref.py:177
-#, fuzzy
 msgid "No person selected"
-msgstr "ドキュメントが選択されていません"
+msgstr "人物が選択されていません"
 
 #: ../src/gui/editors/editpersonref.py:178
 msgid "You must either select a person or Cancel the edit"
 msgstr ""
 
 #: ../src/gui/editors/editplace.py:128
-#, fuzzy
 msgid "_Location"
-msgstr "  場所: "
+msgstr "_場所"
 
 #: ../src/gui/editors/editplace.py:135
-#, fuzzy, python-format
+#, python-format
 msgid "Place: %s"
-msgstr "同じ場所に貼り付け(_I)"
+msgstr "場所: %s"
 
 #: ../src/gui/editors/editplace.py:137
-#, fuzzy
 msgid "New Place"
-msgstr "新規(_N)"
+msgstr "新しい場所"
 
 #: ../src/gui/editors/editplace.py:221
 msgid "Invalid latitude (syntax: 18°9'"
@@ -6943,14 +6631,12 @@ msgstr ""
 #: ../src/plugins/lib/maps/geography.py:882
 #: ../src/plugins/view/geoplaces.py:287
 #: ../src/plugins/view/geoplaces.py:306
-#, fuzzy
 msgid "Edit Place"
-msgstr "外部で編集..."
+msgstr "場所を編集"
 
 #: ../src/gui/editors/editplace.py:290
-#, fuzzy
 msgid "Cannot save place"
-msgstr "同じ場所に貼り付け(_I)"
+msgstr "場所を保存できません"
 
 #: ../src/gui/editors/editplace.py:291
 msgid "No data exists for this place. Please enter data or cancel the edit."
@@ -6961,33 +6647,31 @@ msgid "Cannot save place. ID already exists."
 msgstr ""
 
 #: ../src/gui/editors/editplace.py:313
-#, fuzzy, python-format
+#, python-format
 msgid "Add Place (%s)"
-msgstr "エフェクトを追加:"
+msgstr "場所を追加 (%s)"
 
 #: ../src/gui/editors/editplace.py:318
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Place (%s)"
-msgstr "外部で編集..."
+msgstr "場所を編集 (%s)"
 
 #: ../src/gui/editors/editplace.py:342
-#, fuzzy, python-format
+#, python-format
 msgid "Delete Place (%s)"
-msgstr "全て削除"
+msgstr "場所を削除 (%s)"
 
 #: ../src/gui/editors/editprimary.py:234
-#, fuzzy
 msgid "Save Changes?"
-msgstr "変更を保存"
+msgstr "変更を保存しますか?"
 
 #: ../src/gui/editors/editprimary.py:235
 msgid "If you close without saving, the changes you have made will be lost"
 msgstr ""
 
 #: ../src/gui/editors/editreporef.py:63
-#, fuzzy
 msgid "Repository Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "レポジトリ参照エディタ"
 
 #: ../src/gui/editors/editreporef.py:186
 #, python-format
@@ -6996,34 +6680,28 @@ msgstr ""
 
 #: ../src/gui/editors/editreporef.py:188
 #: ../src/gui/editors/editrepository.py:71
-#, fuzzy
 msgid "New Repository"
-msgstr "新規(_N)"
+msgstr "新しいレポジトリ"
 
 #: ../src/gui/editors/editreporef.py:189
-#, fuzzy
 msgid "Repo Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "レポジトリ参照エディタ"
 
 #: ../src/gui/editors/editreporef.py:194
-#, fuzzy
 msgid "Modify Repository"
-msgstr "パスの変形"
+msgstr "レポジトリの変更"
 
 #: ../src/gui/editors/editreporef.py:197
-#, fuzzy
 msgid "Add Repository"
-msgstr "エフェクトを追加:"
+msgstr "レポジトリを追加"
 
 #: ../src/gui/editors/editrepository.py:84
-#, fuzzy
 msgid "Edit Repository"
-msgstr "外部で編集..."
+msgstr "レポジトリを編集"
 
 #: ../src/gui/editors/editrepository.py:161
-#, fuzzy
 msgid "Cannot save repository"
-msgstr "SVG として保存(_S)"
+msgstr "レポジトリを保存できません"
 
 #: ../src/gui/editors/editrepository.py:162
 msgid "No data exists for this repository. Please enter data or cancel the edit."
@@ -7034,35 +6712,32 @@ msgid "Cannot save repository. ID already exists."
 msgstr ""
 
 #: ../src/gui/editors/editrepository.py:184
-#, fuzzy, python-format
+#, python-format
 msgid "Add Repository (%s)"
-msgstr "エフェクトを追加:"
+msgstr "レポジトリを追加 (%s)"
 
 #: ../src/gui/editors/editrepository.py:189
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Repository (%s)"
-msgstr "外部で編集..."
+msgstr "レポジトリを編集 (%s)"
 
 #: ../src/gui/editors/editrepository.py:202
-#, fuzzy, python-format
+#, python-format
 msgid "Delete Repository (%s)"
-msgstr "全て削除"
+msgstr "レポジトリを削除 (%s)"
 
 #: ../src/gui/editors/editsource.py:77
 #: ../src/gui/editors/editsourceref.py:204
-#, fuzzy
 msgid "New Source"
-msgstr "新規光源"
+msgstr "新しいソース"
 
 #: ../src/gui/editors/editsource.py:174
-#, fuzzy
 msgid "Edit Source"
-msgstr "光源:"
+msgstr "ソースを編集"
 
 #: ../src/gui/editors/editsource.py:179
-#, fuzzy
 msgid "Cannot save source"
-msgstr "ソースの下エッジ"
+msgstr "ソースを保存できません"
 
 #: ../src/gui/editors/editsource.py:180
 msgid "No data exists for this source. Please enter data or cancel the edit."
@@ -7073,70 +6748,62 @@ msgid "Cannot save source. ID already exists."
 msgstr ""
 
 #: ../src/gui/editors/editsource.py:202
-#, fuzzy, python-format
+#, python-format
 msgid "Add Source (%s)"
-msgstr "光源:"
+msgstr "ソースを追加 (%s)"
 
 #: ../src/gui/editors/editsource.py:207
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Source (%s)"
-msgstr "光源:"
+msgstr "ソースを編集 (%s)"
 
 #: ../src/gui/editors/editsource.py:220
-#, fuzzy, python-format
+#, python-format
 msgid "Delete Source (%s)"
-msgstr "光源:"
+msgstr "ソースを削除 (%s)"
 
 #: ../src/gui/editors/editsourceref.py:65
 #: ../src/gui/editors/editsourceref.py:205
-#, fuzzy
 msgid "Source Reference Editor"
-msgstr "エディタデータを保持する"
+msgstr "ソース参照エディタ"
 
 #: ../src/gui/editors/editsourceref.py:202
-#, fuzzy, python-format
+#, python-format
 msgid "Source: %s"
-msgstr "ソース"
+msgstr "ソース: %s"
 
 #: ../src/gui/editors/editsourceref.py:210
-#, fuzzy
 msgid "Modify Source"
-msgstr "光源:"
+msgstr "ソースを変更"
 
 #: ../src/gui/editors/editsourceref.py:213
-#, fuzzy
 msgid "Add Source"
-msgstr "光源:"
+msgstr "ソースを追加"
 
 #: ../src/gui/editors/editurl.py:61
 #: ../src/gui/editors/editurl.py:91
-#, fuzzy
 msgid "Internet Address Editor"
-msgstr "エディタデータを保持する"
+msgstr "インターネットアクセスエディタ"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:61
 msgid "Create and add a new address"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:62
-#, fuzzy
 msgid "Remove the existing address"
-msgstr "既存のガイドを削除する"
+msgstr "既存の住所を削除する"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:63
-#, fuzzy
 msgid "Edit the selected address"
-msgstr "サポートしていないソケット・アドレスです"
+msgstr "選択されたアドレスを編集する"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:64
-#, fuzzy
 msgid "Move the selected address upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたアドレスを上に移動"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:65
-#, fuzzy
 msgid "Move the selected address downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたアドレスを下に移動"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:72
 #: ../src/gui/editors/displaytabs/locationembedlist.py:54
@@ -7158,39 +6825,32 @@ msgid "Create and add a new attribute"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/attrembedlist.py:53
-#, fuzzy
 msgid "Remove the existing attribute"
-msgstr "既存のガイドを削除する"
+msgstr "既存の属性を削除"
 
 #: ../src/gui/editors/displaytabs/attrembedlist.py:54
-#, fuzzy
 msgid "Edit the selected attribute"
-msgstr "編集する属性を<b>クリック</b>して下さい。"
+msgstr "選択された属性を編集"
 
 #: ../src/gui/editors/displaytabs/attrembedlist.py:55
-#, fuzzy
 msgid "Move the selected attribute upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された属性を上に移動"
 
 #: ../src/gui/editors/displaytabs/attrembedlist.py:56
-#, fuzzy
 msgid "Move the selected attribute downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された属性を下に移動"
 
 #: ../src/gui/editors/displaytabs/attrembedlist.py:68
-#, fuzzy
 msgid "_Attributes"
-msgstr "属性の並び"
+msgstr "_属性"
 
 #: ../src/gui/editors/displaytabs/backreflist.py:67
-#, fuzzy
 msgid "_References"
-msgstr "参照"
+msgstr "_参照"
 
 #: ../src/gui/editors/displaytabs/backreflist.py:99
-#, fuzzy
 msgid "Edit reference"
-msgstr "基準セグメント"
+msgstr "参照を編集"
 
 #: ../src/gui/editors/displaytabs/backrefmodel.py:48
 #, python-format
@@ -7199,12 +6859,10 @@ msgstr ""
 
 #: ../src/gui/editors/displaytabs/buttontab.py:68
 #: ../src/plugins/view/relview.py:399
-#, fuzzy
 msgid "Add"
 msgstr "追加"
 
 #: ../src/gui/editors/displaytabs/buttontab.py:69
-#, fuzzy
 msgid "Remove"
 msgstr "削除"
 
@@ -7212,22 +6870,18 @@ msgstr "削除"
 #: ../src/gui/editors/displaytabs/embeddedlist.py:122
 #: ../src/gui/editors/displaytabs/gallerytab.py:126
 #: ../src/plugins/view/relview.py:403
-#, fuzzy
 msgid "Share"
 msgstr "共有"
 
 #: ../src/gui/editors/displaytabs/buttontab.py:72
-#, fuzzy
 msgid "Jump To"
-msgstr "移動(_J)"
+msgstr "移動"
 
 #: ../src/gui/editors/displaytabs/buttontab.py:73
-#, fuzzy
 msgid "Move Up"
 msgstr "上へ"
 
 #: ../src/gui/editors/displaytabs/buttontab.py:74
-#, fuzzy
 msgid "Move Down"
 msgstr "下へ"
 
@@ -7240,9 +6894,8 @@ msgid "Remove the existing data entry"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/dataembedlist.py:51
-#, fuzzy
 msgid "Edit the selected data entry"
-msgstr "<b>クローンされた文字データ</b>は編集できません。"
+msgstr "選択されたデータエントリを編集"
 
 #: ../src/gui/editors/displaytabs/dataembedlist.py:52
 msgid "Move the selected data entry upwards"
@@ -7257,40 +6910,33 @@ msgstr ""
 #: ../src/plugins/gramplet/Attributes.py:46
 #: ../src/plugins/gramplet/EditExifMetadata.py:251
 #: ../src/plugins/gramplet/MetadataViewer.py:57
-#, fuzzy
 msgid "Key"
-msgstr "キーバインド"
+msgstr "キー"
 
 #: ../src/gui/editors/displaytabs/dataembedlist.py:66
-#, fuzzy
 msgid "_Data"
-msgstr "DATA: "
+msgstr "_データ"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:57
 #: ../src/plugins/gramplet/bottombar.gpr.py:138
-#, fuzzy
 msgid "Family Events"
-msgstr "拡張イベント"
+msgstr "家族イベント"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:58
-#, fuzzy
 msgid "Events father"
-msgstr "拡張イベント"
+msgstr "父親のイベント"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:59
-#, fuzzy
 msgid "Events mother"
-msgstr "拡張イベント"
+msgstr "母親のイベント"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:62
-#, fuzzy
 msgid "Add a new family event"
-msgstr "接続点を追加"
+msgstr "新しい家族イベントを追加"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:63
-#, fuzzy
 msgid "Remove the selected family event"
-msgstr "現在選択されている接続点を削除"
+msgstr "選択された家族イベントを削除"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:64
 msgid "Edit the selected family event or edit person"
@@ -7298,30 +6944,25 @@ msgstr ""
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:65
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:57
-#, fuzzy
 msgid "Share an existing event"
-msgstr "サウンドを有効にするかどうか"
+msgstr "既存のイベントを共有"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:66
-#, fuzzy
 msgid "Move the selected event upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたイベントを上に移動"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:67
-#, fuzzy
 msgid "Move the selected event downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたイベントを下に移動"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:80
 #: ../src/plugins/gramplet/Events.py:54
-#, fuzzy
 msgid "Role"
-msgstr "ロール:"
+msgstr "ロール"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:92
-#, fuzzy
 msgid "_Events"
-msgstr "イベント"
+msgstr "_イベント"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:231
 #: ../src/gui/editors/displaytabs/eventembedlist.py:327
@@ -7334,23 +6975,20 @@ msgstr ""
 #: ../src/gui/editors/displaytabs/eventembedlist.py:251
 #: ../src/gui/editors/displaytabs/gallerytab.py:319
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:144
-#, fuzzy
 msgid "Cannot share this reference"
-msgstr "このドキュメントを参照する一意的な URI"
+msgstr "この参照を共有できません"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:264
 #: ../src/gui/editors/displaytabs/eventembedlist.py:326
 #: ../src/gui/editors/displaytabs/gallerytab.py:339
 #: ../src/gui/editors/displaytabs/repoembedlist.py:165
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:158
-#, fuzzy
 msgid "Cannot edit this reference"
-msgstr "このドキュメントを参照する一意的な URI"
+msgstr "この参照を編集できません"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:303
-#, fuzzy
 msgid "Cannot change Person"
-msgstr "ブールパラメータの変更"
+msgstr "人物を変更できません"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:304
 msgid "You cannot change Person events in the Family Editor"
@@ -7374,9 +7012,8 @@ msgstr ""
 
 #: ../src/gui/editors/displaytabs/gallerytab.py:144
 #: ../src/plugins/view/mediaview.py:223
-#, fuzzy
 msgid "Open Containing _Folder"
-msgstr "フォルダの中に作成(_F):"
+msgstr "ひとつ上のフォルダを開く"
 
 #: ../src/gui/editors/displaytabs/gallerytab.py:294
 msgid ""
@@ -7387,9 +7024,8 @@ msgstr ""
 
 #: ../src/gui/editors/displaytabs/gallerytab.py:508
 #: ../src/plugins/view/mediaview.py:199
-#, fuzzy
 msgid "Drag Media Object"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "メディアオブジェクトをドラッグ"
 
 #: ../src/gui/editors/displaytabs/ldsembedlist.py:51
 msgid "Create and add a new LDS ordinance"
@@ -7435,38 +7071,32 @@ msgstr ""
 #: ../src/plugins/view/placetreeview.py:76
 #: ../src/plugins/webreport/NarrativeWeb.py:2446
 #: ../src/Filters/SideBar/_PlaceSidebarFilter.py:91
-#, fuzzy
 msgid "State"
-msgstr "状態:"
+msgstr "状態"
 
 #: ../src/gui/editors/displaytabs/locationembedlist.py:65
-#, fuzzy
 msgid "Alternate _Locations"
-msgstr "<small>交互にする:</small>"
+msgstr "代替の _ロケーション"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:61
 msgid "Create and add a new name"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:62
-#, fuzzy
 msgid "Remove the existing name"
-msgstr "既存のガイドを削除する"
+msgstr "既存の名前を削除する"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:63
-#, fuzzy
 msgid "Edit the selected name"
-msgstr "選択したフォントの名前"
+msgstr "選択された名前を編集する"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:64
-#, fuzzy
 msgid "Move the selected name upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された名前を上に移動"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:65
-#, fuzzy
 msgid "Move the selected name downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された名前を下に移動"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:75
 #: ../src/gui/views/treemodels/peoplemodel.py:526
@@ -7475,19 +7105,16 @@ msgid "Group As"
 msgstr "選択オブジェクトをグループとして扱う:"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:77
-#, fuzzy
 msgid "Note Preview"
-msgstr "プレビューを有効にする"
+msgstr "ノートのプレビュー"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:87
-#, fuzzy
 msgid "_Names"
-msgstr "曜日名"
+msgstr "_名前"
 
 #: ../src/gui/editors/displaytabs/nameembedlist.py:122
-#, fuzzy
 msgid "Set as default name"
-msgstr "使用するデフォルトのフォント名"
+msgstr "デフォルトの名前として設定"
 
 #. -------------------------------------------------------------------------
 #.
@@ -7499,7 +7126,6 @@ msgstr "使用するデフォルトのフォント名"
 #: ../src/gui/views/listview.py:500
 #: ../src/gui/views/tags.py:478
 #: ../src/plugins/quickview/all_relations.py:307
-#, fuzzy
 msgid "Yes"
 msgstr "はい"
 
@@ -7508,67 +7134,56 @@ msgstr "はい"
 #: ../src/gui/views/listview.py:501
 #: ../src/gui/views/tags.py:479
 #: ../src/plugins/quickview/all_relations.py:311
-#, fuzzy
 msgid "No"
 msgstr "いいえ"
 
 #: ../src/gui/editors/displaytabs/namemodel.py:58
-#, fuzzy
 msgid "Preferred name"
-msgstr "属性名"
+msgstr "ニックネーム"
 
 #: ../src/gui/editors/displaytabs/namemodel.py:60
-#, fuzzy
 msgid "Alternative names"
-msgstr "曜日名"
+msgstr "代替名"
 
 #: ../src/gui/editors/displaytabs/notetab.py:65
 msgid "Create and add a new note"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/notetab.py:66
-#, fuzzy
 msgid "Remove the existing note"
-msgstr "既存のガイドを削除する"
+msgstr "既存のノートを削除する"
 
 #: ../src/gui/editors/displaytabs/notetab.py:67
 #: ../src/plugins/view/noteview.py:90
-#, fuzzy
 msgid "Edit the selected note"
-msgstr "注意、'%2$s' の代わりに '%1$s' を選択しています\n"
+msgstr "選択されたノートを編集する"
 
 #: ../src/gui/editors/displaytabs/notetab.py:68
-#, fuzzy
 msgid "Add an existing note"
-msgstr "注意、'%2$s' の代わりに '%1$s' を選択しています\n"
+msgstr "既存のノートを追加する"
 
 #: ../src/gui/editors/displaytabs/notetab.py:69
-#, fuzzy
 msgid "Move the selected note upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "サンタ腐れたノートを上に移動"
 
 #: ../src/gui/editors/displaytabs/notetab.py:70
-#, fuzzy
 msgid "Move the selected note downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "サンタ腐れたノートを下に移動"
 
 #: ../src/gui/editors/displaytabs/notetab.py:77
 #: ../src/gui/selectors/selectnote.py:66
 #: ../src/plugins/gramplet/bottombar.gpr.py:80
 #: ../src/plugins/view/noteview.py:77
-#, fuzzy
 msgid "Preview"
 msgstr "プレビュー"
 
 #: ../src/gui/editors/displaytabs/notetab.py:86
-#, fuzzy
 msgid "_Notes"
-msgstr "注記"
+msgstr "_ノート"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:49
-#, fuzzy
 msgid "Personal Events"
-msgstr "拡張イベント"
+msgstr "個人イベント"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:50
 #, fuzzy, python-format
@@ -7576,19 +7191,16 @@ msgid "With %(namepartner)s (%(famid)s)"
 msgstr "、半径%dの円での平均値"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:51
-#, fuzzy
 msgid "<Unknown>"
-msgstr "不明"
+msgstr "<不明>"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:54
-#, fuzzy
 msgid "Add a new personal event"
-msgstr "接続点を追加"
+msgstr "新しい個人イベントを追加"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:55
-#, fuzzy
 msgid "Remove the selected personal event"
-msgstr "現在選択されている接続点を削除"
+msgstr "選択された個人イベントを削除"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:56
 msgid "Edit the selected personal event or edit family"
@@ -7603,9 +7215,8 @@ msgid "Move the selected event downwards or change family order"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:127
-#, fuzzy
 msgid "Cannot change Family"
-msgstr "テキスト: フォントファミリの変更"
+msgstr "家族を変更できません"
 
 #: ../src/gui/editors/displaytabs/personeventembedlist.py:128
 msgid "You cannot change Family events in the Person Editor"
@@ -7616,24 +7227,20 @@ msgid "Create and add a new association"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/personrefembedlist.py:53
-#, fuzzy
 msgid "Remove the existing association"
-msgstr "既存のガイドを削除する"
+msgstr "既存の関連を削除"
 
 #: ../src/gui/editors/displaytabs/personrefembedlist.py:54
-#, fuzzy
 msgid "Edit the selected association"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "選択された関連を編集"
 
 #: ../src/gui/editors/displaytabs/personrefembedlist.py:55
-#, fuzzy
 msgid "Move the selected association upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された関連を上に移動"
 
 #: ../src/gui/editors/displaytabs/personrefembedlist.py:56
-#, fuzzy
 msgid "Move the selected association downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された関連を下に移動"
 
 #: ../src/gui/editors/displaytabs/personrefembedlist.py:64
 msgid "Association"
@@ -7652,35 +7259,29 @@ msgid "Create and add a new repository"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:56
-#, fuzzy
 msgid "Remove the existing repository"
-msgstr "既存のガイドを削除する"
+msgstr "既存のレポジトリを削除"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:57
 #: ../src/plugins/view/repoview.py:107
-#, fuzzy
 msgid "Edit the selected repository"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "選択されたレポジトリを編集"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:58
-#, fuzzy
 msgid "Add an existing repository"
-msgstr "既存のガイドを削除する"
+msgstr "既存のレポジトリを追加"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:59
-#, fuzzy
 msgid "Move the selected repository upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたレポジトリを上に移動"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:60
-#, fuzzy
 msgid "Move the selected repository downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたレポジトリを下に移動"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:68
-#, fuzzy
 msgid "Call Number"
-msgstr "浮動小数点数"
+msgstr "電話番号"
 
 #: ../src/gui/editors/displaytabs/repoembedlist.py:75
 msgid "_Repositories"
@@ -7698,30 +7299,25 @@ msgid "Create and add a new source"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:56
-#, fuzzy
 msgid "Remove the existing source"
-msgstr "既存のガイドを削除する"
+msgstr "既存のソースを削除"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:57
 #: ../src/plugins/view/sourceview.py:91
-#, fuzzy
 msgid "Edit the selected source"
-msgstr "辞書ソース'%s'が選択されました"
+msgstr "選択されたソースを編集"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:58
-#, fuzzy
 msgid "Add an existing source"
-msgstr "ソースの下エッジ"
+msgstr "既存のソースを追加"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:59
-#, fuzzy
 msgid "Move the selected source upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたソースを上に移動"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:60
-#, fuzzy
 msgid "Move the selected source downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択されたソースを下に移動"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:68
 #: ../src/plugins/gramplet/Sources.py:49
@@ -7733,14 +7329,12 @@ msgstr ""
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:69
 #: ../src/plugins/webreport/NarrativeWeb.py:1737
-#, fuzzy
 msgid "Page"
 msgstr "ページ"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:74
-#, fuzzy
 msgid "_Sources"
-msgstr "辞書ソース"
+msgstr "_ソース"
 
 #: ../src/gui/editors/displaytabs/sourceembedlist.py:120
 msgid ""
@@ -7754,45 +7348,37 @@ msgid "Create and add a new surname"
 msgstr ""
 
 #: ../src/gui/editors/displaytabs/surnametab.py:66
-#, fuzzy
 msgid "Remove the selected surname"
-msgstr "選択されたグリッドを削除します。"
+msgstr "選択された姓を削除"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:67
-#, fuzzy
 msgid "Edit the selected surname"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "選択された姓を編集"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:68
-#, fuzzy
 msgid "Move the selected surname upwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された姓を上に移動"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:69
-#, fuzzy
 msgid "Move the selected surname downwards"
-msgstr "ツールバーの選択された項目に移動"
+msgstr "選択された姓を下に移動"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:77
 #: ../src/Filters/Rules/Person/_HasNameOf.py:56
-#, fuzzy
 msgid "Connector"
 msgstr "コネクタ"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:79
-#, fuzzy
 msgid "Origin"
-msgstr "X 軸の開始位置:"
+msgstr "起源"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:83
-#, fuzzy
 msgid "<b>Multiple Surnames</b>"
-msgstr "複数のスタイル"
+msgstr "<b>複数の姓</b>"
 
 #: ../src/gui/editors/displaytabs/surnametab.py:90
-#, fuzzy
 msgid "Family Surnames"
-msgstr "ファミリ名:"
+msgstr "家族の姓"
 
 #: ../src/gui/editors/displaytabs/webembedlist.py:53
 msgid "Create and add a new web address"
@@ -7821,7 +7407,6 @@ msgstr ""
 #: ../src/gui/editors/displaytabs/webembedlist.py:65
 #: ../src/plugins/view/mediaview.py:95
 #: ../src/Filters/SideBar/_MediaSidebarFilter.py:91
-#, fuzzy
 msgid "Path"
 msgstr "パス"
 
@@ -7830,14 +7415,12 @@ msgid "_Internet"
 msgstr ""
 
 #: ../src/gui/plug/_dialogs.py:124
-#, fuzzy
 msgid "_Apply"
-msgstr "適用(_A)"
+msgstr "_適用"
 
 #: ../src/gui/plug/_dialogs.py:279
-#, fuzzy
 msgid "Report Selection"
-msgstr "選択オブジェクトを削除"
+msgstr "選択をレポート"
 
 #: ../src/gui/plug/_dialogs.py:280
 #: ../src/glade/plugins.glade.h:4
@@ -7845,19 +7428,16 @@ msgid "Select a report from those available on the left."
 msgstr ""
 
 #: ../src/gui/plug/_dialogs.py:281
-#, fuzzy
 msgid "_Generate"
-msgstr "データベースの作成"
+msgstr "_生成"
 
 #: ../src/gui/plug/_dialogs.py:281
-#, fuzzy
 msgid "Generate selected report"
-msgstr "%d 個のオブジェクトが選択されています。"
+msgstr "選択されたレポートの生成"
 
 #: ../src/gui/plug/_dialogs.py:310
-#, fuzzy
 msgid "Tool Selection"
-msgstr "選択オブジェクトを削除"
+msgstr "ツールの選択"
 
 #: ../src/gui/plug/_dialogs.py:311
 msgid "Select a tool from those available on the left."
@@ -7865,25 +7445,21 @@ msgstr ""
 
 #: ../src/gui/plug/_dialogs.py:312
 #: ../src/plugins/tool/verify.glade.h:25
-#, fuzzy
 msgid "_Run"
-msgstr "スクリプトを実行します。"
+msgstr "_実行"
 
 #: ../src/gui/plug/_dialogs.py:313
-#, fuzzy
 msgid "Run selected tool"
-msgstr "LPE ツールの設定"
+msgstr "選択されたツールを実行"
 
 #: ../src/gui/plug/_guioptions.py:81
-#, fuzzy
 msgid "Select surname"
-msgstr "全て選択(_L)"
+msgstr "姓を選択"
 
 #: ../src/gui/plug/_guioptions.py:88
 #: ../src/plugins/quickview/FilterByName.py:318
-#, fuzzy
 msgid "Count"
-msgstr "軸カウント:"
+msgstr "カウント"
 
 #. we could use database.get_surname_list(), but if we do that
 #. all we get is a list of names without a count...therefore
@@ -7903,48 +7479,42 @@ msgid "Finding surnames"
 msgstr ""
 
 #: ../src/gui/plug/_guioptions.py:628
-#, fuzzy
 msgid "Select a different person"
-msgstr "新しいパスを選択する"
+msgstr "別の人物を選択"
 
 #: ../src/gui/plug/_guioptions.py:655
-#, fuzzy
 msgid "Select a person for the report"
-msgstr "エクスポートするファイル名"
+msgstr "レポート対象の人物を選択"
 
 #: ../src/gui/plug/_guioptions.py:736
-#, fuzzy
 msgid "Select a different family"
-msgstr "フォントファミリの設定"
+msgstr "別の家族を選択"
 
 #: ../src/gui/plug/_guioptions.py:834
 #: ../src/plugins/BookReport.py:183
-#, fuzzy
 msgid "unknown father"
-msgstr "未知のエフェクト"
+msgstr "未知の父親"
 
 #: ../src/gui/plug/_guioptions.py:840
 #: ../src/plugins/BookReport.py:189
-#, fuzzy
 msgid "unknown mother"
-msgstr "未知のエフェクト"
+msgstr "未知の母親"
 
 #: ../src/gui/plug/_guioptions.py:842
 #: ../src/plugins/textreport/PlaceReport.py:224
-#, fuzzy, python-format
+#, python-format
 msgid "%s and %s (%s)"
-msgstr " と "
+msgstr "%s と %s (%s)"
 
 #: ../src/gui/plug/_guioptions.py:1185
-#, fuzzy, python-format
+#, python-format
 msgid "Also include %s?"
-msgstr "非表示のオブジェクトを含む(_H)"
+msgstr "%s も含めますか?"
 
 #: ../src/gui/plug/_guioptions.py:1187
 #: ../src/gui/selectors/selectperson.py:67
-#, fuzzy
 msgid "Select Person"
-msgstr "全て選択(_L)"
+msgstr "人物を選択"
 
 #: ../src/gui/plug/_guioptions.py:1435
 msgid "Colour"
@@ -7952,121 +7522,100 @@ msgstr ""
 
 #: ../src/gui/plug/_guioptions.py:1663
 #: ../src/gui/plug/report/_reportdialog.py:504
-#, fuzzy
 msgid "Save As"
-msgstr "名前を付けて保存(_A)..."
+msgstr "名前を付けて保存"
 
 #: ../src/gui/plug/_guioptions.py:1743
 #: ../src/gui/plug/report/_reportdialog.py:354
 #: ../src/gui/plug/report/_styleeditor.py:102
-#, fuzzy
 msgid "Style Editor"
-msgstr "ビットマップエディタ:"
+msgstr "スタイルエディタ"
 
 #: ../src/gui/plug/_windows.py:74
-#, fuzzy
 msgid "Hidden"
-msgstr "非表示のオブジェクトを含む(_H)"
+msgstr "非表示"
 
 #: ../src/gui/plug/_windows.py:76
-#, fuzzy
 msgid "Visible"
-msgstr "可視性"
+msgstr "表示"
 
 #: ../src/gui/plug/_windows.py:81
 #: ../src/plugins/gramplet/gramplet.gpr.py:167
 #: ../src/plugins/gramplet/gramplet.gpr.py:174
-#, fuzzy
 msgid "Plugin Manager"
-msgstr "現在のマネージャ"
+msgstr "プラグインマネージャ"
 
 #: ../src/gui/plug/_windows.py:128
 #: ../src/gui/plug/_windows.py:183
-#, fuzzy
 msgid "Info"
-msgstr "システム情報"
+msgstr "情報"
 
 #. id_col
 #: ../src/gui/plug/_windows.py:131
 #: ../src/gui/plug/_windows.py:186
-#, fuzzy
 msgid "Hide/Unhide"
-msgstr "全て表示"
+msgstr "隠す/再表示"
 
 #. id_col
 #: ../src/gui/plug/_windows.py:139
 #: ../src/gui/plug/_windows.py:195
-#, fuzzy
 msgid "Load"
-msgstr "ファイルから読み込む"
+msgstr "ロード"
 
 #: ../src/gui/plug/_windows.py:145
-#, fuzzy
 msgid "Registered Plugins"
-msgstr "利用可能なプラグインの一覧"
+msgstr "登録されているプラグイン"
 
 #: ../src/gui/plug/_windows.py:159
-#, fuzzy
 msgid "Loaded"
 msgstr "ロード済み"
 
 #: ../src/gui/plug/_windows.py:164
-#, fuzzy
 msgid "File"
 msgstr "ファイル"
 
 #: ../src/gui/plug/_windows.py:173
-#, fuzzy
 msgid "Message"
-msgstr "%d 個の翻訳メッセージ"
+msgstr "メッセージ"
 
 #: ../src/gui/plug/_windows.py:201
-#, fuzzy
 msgid "Loaded Plugins"
-msgstr "利用可能なプラグインの一覧"
+msgstr "ロードされたプラグイン"
 
 #. self.addon_list.connect('button-press-event', self.button_press)
 #: ../src/gui/plug/_windows.py:221
-#, fuzzy
 msgid "Addon Name"
-msgstr "属性名"
+msgstr "アドオン名"
 
 #: ../src/gui/plug/_windows.py:236
-#, fuzzy
 msgid "Path to Addon:"
-msgstr "パスへリンク"
+msgstr "アドオンへのパス:"
 
 #: ../src/gui/plug/_windows.py:256
-#, fuzzy
 msgid "Install Addon"
-msgstr "インストール/アップデート"
+msgstr "アドオンのインストール"
 
 #: ../src/gui/plug/_windows.py:259
-#, fuzzy
 msgid "Install All Addons"
-msgstr "全ての Inkscape ファイル"
+msgstr "全てのアドオンをインストール"
 
 #: ../src/gui/plug/_windows.py:262
-#, fuzzy
 msgid "Refresh Addon List"
-msgstr "ページ・タブのリスト"
+msgstr "アドオンリストの更新"
 
 #: ../src/gui/plug/_windows.py:267
-#, fuzzy
 msgid "Install Addons"
-msgstr "インストール/アップデート"
+msgstr "アドオンのインストール"
 
 #. Only show the "Reload" button when in debug mode
 #. (without -O on the command line)
 #: ../src/gui/plug/_windows.py:275
-#, fuzzy
 msgid "Reload"
 msgstr "再読み込み"
 
 #: ../src/gui/plug/_windows.py:298
-#, fuzzy
 msgid "Refreshing Addon List"
-msgstr "ページ・タブのリスト"
+msgstr "アドオンリストを更新"
 
 #: ../src/gui/plug/_windows.py:299
 #: ../src/gui/plug/_windows.py:304
@@ -8075,158 +7624,130 @@ msgid "Reading gramps-project.org..."
 msgstr ""
 
 #: ../src/gui/plug/_windows.py:322
-#, fuzzy
 msgid "Checking addon..."
-msgstr "'%s' の確認中にエラーが発生しました"
+msgstr "アドオンをチェックしています..."
 
 #: ../src/gui/plug/_windows.py:330
-#, fuzzy
 msgid "Unknown Help URL"
-msgstr "ヘルプのオプションを表示する"
+msgstr "未知のヘルプURL"
 
 #: ../src/gui/plug/_windows.py:341
-#, fuzzy
 msgid "Unknown URL"
-msgstr "ウェブサイトの URL"
+msgstr "未知のURL"
 
 #: ../src/gui/plug/_windows.py:377
-#, fuzzy
 msgid "Install all Addons"
-msgstr "全ての Inkscape ファイル"
+msgstr "全てのアドオンをインストール"
 
 #: ../src/gui/plug/_windows.py:377
-#, fuzzy
 msgid "Installing..."
-msgstr "%s をインストールしています"
+msgstr "インストールしています..."
 
 #: ../src/gui/plug/_windows.py:394
-#, fuzzy
 msgid "Installing Addon"
-msgstr "新しい diversions のインストール中にエラーが発生しました"
+msgstr "アドオンのインストール"
 
 #: ../src/gui/plug/_windows.py:415
-#, fuzzy
 msgid "Load Addon"
-msgstr "ファイルから読み込む"
+msgstr "アドオンを読み込む"
 
 #: ../src/gui/plug/_windows.py:476
 msgid "Fail"
 msgstr ""
 
 #: ../src/gui/plug/_windows.py:490
-#, fuzzy
 msgid "OK"
-msgstr "オッケー"
+msgstr "OK"
 
 #: ../src/gui/plug/_windows.py:591
-#, fuzzy
 msgid "Plugin name"
-msgstr "属性名"
+msgstr "プラグイン名"
 
 #: ../src/gui/plug/_windows.py:593
-#, fuzzy
 msgid "Version"
 msgstr "バージョン"
 
 #: ../src/gui/plug/_windows.py:594
-#, fuzzy
 msgid "Authors"
 msgstr "作者"
 
 #. Save Frame
 #: ../src/gui/plug/_windows.py:596
 #: ../src/gui/plug/report/_reportdialog.py:523
-#, fuzzy
 msgid "Filename"
 msgstr "ファイル名"
 
 #: ../src/gui/plug/_windows.py:599
-#, fuzzy
 msgid "Detailed Info"
-msgstr "システム情報"
+msgstr "詳細情報"
 
 #: ../src/gui/plug/_windows.py:656
-#, fuzzy
 msgid "Plugin Error"
-msgstr "書き込みエラー"
+msgstr "プラグインエラー"
 
 #: ../src/gui/plug/_windows.py:1020
 #: ../src/plugins/tool/OwnerEditor.py:161
-#, fuzzy
 msgid "Main window"
-msgstr "次のウインドウ(_E)"
+msgstr "メインウインドウ"
 
 #: ../src/gui/plug/report/_docreportdialog.py:123
 #: ../src/gui/plug/report/_graphvizreportdialog.py:173
-#, fuzzy
 msgid "Paper Options"
-msgstr "ビットマップオプション"
+msgstr "用紙オプション"
 
 #: ../src/gui/plug/report/_docreportdialog.py:128
-#, fuzzy
 msgid "HTML Options"
-msgstr "HTML エクスポートオプション"
+msgstr "HTMLオプション"
 
 #: ../src/gui/plug/report/_docreportdialog.py:158
 #: ../src/gui/plug/report/_graphvizreportdialog.py:149
-#, fuzzy
 msgid "Output Format"
-msgstr "出力形式:\n"
+msgstr "出力形式"
 
 #: ../src/gui/plug/report/_docreportdialog.py:165
 #: ../src/gui/plug/report/_graphvizreportdialog.py:156
-#, fuzzy
 msgid "Open with default viewer"
-msgstr "XFIG で保存されたファイルを開く"
+msgstr "既定のビューアで開く"
 
 #: ../src/gui/plug/report/_docreportdialog.py:201
-#, fuzzy
 msgid "CSS file"
-msgstr "イメージファイル"
+msgstr "CSSファイル"
 
 #: ../src/gui/plug/report/_papermenu.py:100
-#, fuzzy
 msgid "Portrait"
 msgstr "縦置き"
 
 #: ../src/gui/plug/report/_papermenu.py:101
-#, fuzzy
 msgid "Landscape"
 msgstr "横置き"
 
 #: ../src/gui/plug/report/_papermenu.py:204
 #: ../src/glade/styleeditor.glade.h:33
 #: ../src/glade/papermenu.glade.h:13
-#, fuzzy
 msgid "cm"
-msgstr "cm"
+msgstr "センチメートル"
 
 #: ../src/gui/plug/report/_papermenu.py:208
-#, fuzzy
 msgid "inch|in."
-msgstr " <b>%i</b> 個のレイヤーに所属"
+msgstr "インチ|in."
 
 #: ../src/gui/plug/report/_reportdialog.py:93
-#, fuzzy
 msgid "Processing File"
-msgstr "イメージファイル"
+msgstr "ファイルの処理"
 
 #: ../src/gui/plug/report/_reportdialog.py:180
-#, fuzzy
 msgid "Configuration"
 msgstr "設定"
 
 #. Styles Frame
 #: ../src/gui/plug/report/_reportdialog.py:350
 #: ../src/gui/plug/report/_styleeditor.py:106
-#, fuzzy
 msgid "Style"
 msgstr "スタイル"
 
 #: ../src/gui/plug/report/_reportdialog.py:378
-#, fuzzy
 msgid "Selection Options"
-msgstr "ビットマップオプション"
+msgstr "選択オプション"
 
 #. ###############################
 #. Report Options
@@ -8254,21 +7775,18 @@ msgstr "ビットマップオプション"
 #: ../src/plugins/textreport/TagReport.py:526
 #: ../src/plugins/webreport/NarrativeWeb.py:6409
 #: ../src/plugins/webreport/WebCal.py:1349
-#, fuzzy
 msgid "Report Options"
-msgstr "ビットマップオプション"
+msgstr "オプションを報告"
 
 #. need any labels at top:
 #: ../src/gui/plug/report/_reportdialog.py:508
-#, fuzzy
 msgid "Document Options"
-msgstr "ビットマップオプション"
+msgstr "文章オプション"
 
 #: ../src/gui/plug/report/_reportdialog.py:555
 #: ../src/gui/plug/report/_reportdialog.py:580
-#, fuzzy
 msgid "Permission problem"
-msgstr "%s のリンク解除で問題が発生しました"
+msgstr "パーミッションの問題"
 
 #: ../src/gui/plug/report/_reportdialog.py:556
 #, python-format
@@ -8279,23 +7797,20 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/plug/report/_reportdialog.py:565
-#, fuzzy
 msgid "File already exists"
-msgstr "ショートカット %s は既にあります"
+msgstr "ファイルが既に存在します"
 
 #: ../src/gui/plug/report/_reportdialog.py:566
 msgid "You can choose to either overwrite the file, or change the selected filename."
 msgstr ""
 
 #: ../src/gui/plug/report/_reportdialog.py:568
-#, fuzzy
 msgid "_Overwrite"
-msgstr "上書きモードかどうか"
+msgstr "_上書き"
 
 #: ../src/gui/plug/report/_reportdialog.py:569
-#, fuzzy
 msgid "_Change filename"
-msgstr "<big><b>ファイル名(_F)</b></big>"
+msgstr "_ファイル名を変更"
 
 #: ../src/gui/plug/report/_reportdialog.py:581
 #, python-format
@@ -8318,77 +7833,63 @@ msgstr ""
 #: ../src/gui/plug/report/_reportdialog.py:716
 #: ../src/gui/plug/report/_reportdialog.py:721
 #: ../src/plugins/drawreport/TimeLine.py:119
-#, fuzzy
 msgid "Report could not be created"
-msgstr "フォルダを生成できませんでした"
+msgstr "レポートが作成できませんでした"
 
 #: ../src/gui/plug/report/_stylecombobox.py:66
 #: ../src/gui/plug/report/_stylecombobox.py:85
 #: ../src/plugins/import/importgedcom.glade.h:17
-#, fuzzy
 msgid "default"
-msgstr "(デフォルト)"
+msgstr "デフォルト"
 
 #: ../src/gui/plug/report/_styleeditor.py:89
-#, fuzzy
 msgid "Document Styles"
-msgstr "複数のスタイル"
+msgstr "文章のスタイル"
 
 #: ../src/gui/plug/report/_styleeditor.py:144
-#, fuzzy
 msgid "Error saving stylesheet"
-msgstr "カタログ保存エラー"
+msgstr "スタイルシートの保存エラー"
 
 #: ../src/gui/plug/report/_styleeditor.py:216
-#, fuzzy
 msgid "Style editor"
-msgstr "ビットマップエディタ:"
+msgstr "スタイルエディタ"
 
 #: ../src/gui/plug/report/_styleeditor.py:217
 #: ../src/glade/styleeditor.glade.h:34
-#, fuzzy
 msgid "point size|pt"
-msgstr "<big><b>ビットマップサイズ</b></big>"
+msgstr "ポイントサイズ|pt"
 
 #: ../src/gui/plug/report/_styleeditor.py:219
-#, fuzzy
 msgid "Paragraph"
 msgstr "段落"
 
 #: ../src/gui/plug/report/_styleeditor.py:250
-#, fuzzy
 msgid "No description available"
-msgstr "(説明 (description) がありません)"
+msgstr "説明がありません"
 
 #: ../src/gui/plug/tool.py:56
-#, fuzzy
 msgid "Debug"
 msgstr "デバッグ"
 
 #: ../src/gui/plug/tool.py:57
-#, fuzzy
 msgid "Analysis and Exploration"
-msgstr "> または < キーでの拡大/縮小量:"
+msgstr "分析と調査"
 
 #: ../src/gui/plug/tool.py:58
-#, fuzzy
 msgid "Family Tree Processing"
-msgstr "%s のトリガを処理しています ...\n"
+msgstr "家系図の操作"
 
 #: ../src/gui/plug/tool.py:59
-#, fuzzy
 msgid "Family Tree Repair"
-msgstr "ツリー線を有効にする"
+msgstr "家系図の修復"
 
 #: ../src/gui/plug/tool.py:60
-#, fuzzy
 msgid "Revision Control"
-msgstr "制御機能用記号"
+msgstr "リビジョンコントロール"
 
 #: ../src/gui/plug/tool.py:61
-#, fuzzy
 msgid "Utilities"
-msgstr "透明化ユーティリティ"
+msgstr "ユーティリティ"
 
 #: ../src/gui/plug/tool.py:106
 msgid ""
@@ -8398,9 +7899,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/plug/tool.py:112
-#, fuzzy
 msgid "_Proceed with the tool"
-msgstr "LPE ツールの設定"
+msgstr "_このツールで続行"
 
 #: ../src/gui/plug/tool.py:135
 #: ../src/plugins/tool/RelCalc.py:149
@@ -8408,9 +7908,8 @@ msgid "You must select an active person for this tool to work properly."
 msgstr ""
 
 #: ../src/gui/selectors/selectevent.py:54
-#, fuzzy
 msgid "Select Event"
-msgstr "全て選択(_L)"
+msgstr "イベントを選択"
 
 #: ../src/gui/selectors/selectevent.py:64
 #: ../src/plugins/view/eventview.py:86
@@ -8418,14 +7917,12 @@ msgid "Main Participants"
 msgstr ""
 
 #: ../src/gui/selectors/selectfamily.py:54
-#, fuzzy
 msgid "Select Family"
-msgstr "ファミリ名:"
+msgstr "家族を選択"
 
 #: ../src/gui/selectors/selectnote.py:59
-#, fuzzy
 msgid "Select Note"
-msgstr "メモを追加:"
+msgstr "ノートを選択"
 
 #: ../src/gui/selectors/selectnote.py:69
 #: ../src/plugins/lib/libpersonview.py:99
@@ -8433,89 +7930,75 @@ msgstr "メモを追加:"
 #: ../src/plugins/view/familyview.py:83
 #: ../src/plugins/view/mediaview.py:97
 #: ../src/plugins/view/noteview.py:80
-#, fuzzy
 msgid "Tags"
-msgstr "タグの挿入"
+msgstr "タグ"
 
 #: ../src/gui/selectors/selectobject.py:61
-#, fuzzy
 msgid "Select Media Object"
-msgstr "連結する<b>オブジェクト</b>を選択してください。"
+msgstr "メディアオブジェクトを選択"
 
 #: ../src/gui/selectors/selectperson.py:82
-#, fuzzy
 msgid "Last Change"
-msgstr "属性の変更"
+msgstr "最後の変更"
 
 #: ../src/gui/selectors/selectplace.py:55
-#, fuzzy
 msgid "Select Place"
-msgstr "全て選択(_L)"
+msgstr "場所を選択"
 
 #: ../src/gui/selectors/selectplace.py:70
 msgid "Parish"
 msgstr ""
 
 #: ../src/gui/selectors/selectrepository.py:54
-#, fuzzy
 msgid "Select Repository"
-msgstr "全て選択(_L)"
+msgstr "レポジトリを選択"
 
 #: ../src/gui/selectors/selectsource.py:54
-#, fuzzy
 msgid "Select Source"
-msgstr "光源:"
+msgstr "ソースを選択"
 
 #: ../src/gui/views/listview.py:201
 #: ../src/plugins/lib/libpersonview.py:363
-#, fuzzy
 msgid "_Add..."
-msgstr "追加"
+msgstr "_追加..."
 
 #: ../src/gui/views/listview.py:203
 #: ../src/plugins/lib/libpersonview.py:365
-#, fuzzy
 msgid "_Remove"
-msgstr "削除(_R)"
+msgstr "_削除"
 
 #: ../src/gui/views/listview.py:205
 #: ../src/plugins/lib/libpersonview.py:367
-#, fuzzy
 msgid "_Merge..."
-msgstr "マージ"
+msgstr "_マージ..."
 
 #: ../src/gui/views/listview.py:207
 #: ../src/plugins/lib/libpersonview.py:369
-#, fuzzy
 msgid "Export View..."
-msgstr "ビューを除去"
+msgstr "ビューをエクスポート..."
 
 #: ../src/gui/views/listview.py:213
 #: ../src/plugins/lib/libpersonview.py:353
-#, fuzzy
 msgid "action|_Edit..."
-msgstr "外部で編集..."
+msgstr "アクション|_編集..."
 
 #: ../src/gui/views/listview.py:400
-#, fuzzy
 msgid "Active object not visible"
-msgstr "選択したオブジェクトは<b>パス</b>説明を持っていません。"
+msgstr "アクティブオブジェクトが見えません"
 
 #: ../src/gui/views/listview.py:411
 #: ../src/gui/views/navigationview.py:255
 #: ../src/plugins/view/familyview.py:241
-#, fuzzy
 msgid "Could Not Set a Bookmark"
-msgstr "ブックマークを追加できませんでした"
+msgstr "ブックマークを設定できませんでした"
 
 #: ../src/gui/views/listview.py:412
 msgid "A bookmark could not be set because nothing was selected."
 msgstr ""
 
 #: ../src/gui/views/listview.py:497
-#, fuzzy
 msgid "Remove selected items?"
-msgstr "選択されたグリッドを削除します。"
+msgstr "選択された項目を削除しますか?"
 
 #: ../src/gui/views/listview.py:498
 msgid "More than one item has been selected for deletion. Ask before deleting each one?"
@@ -8533,15 +8016,14 @@ msgstr ""
 #: ../src/gui/views/listview.py:522
 #: ../src/plugins/lib/libpersonview.py:297
 #: ../src/plugins/view/familyview.py:257
-#, fuzzy, python-format
+#, python-format
 msgid "Delete %s?"
-msgstr "削除"
+msgstr "%s を削除しますか?"
 
 #: ../src/gui/views/listview.py:523
 #: ../src/plugins/view/familyview.py:258
-#, fuzzy
 msgid "_Delete Item"
-msgstr "項目を削除"
+msgstr "_項目を削除"
 
 #: ../src/gui/views/listview.py:565
 #, fuzzy
