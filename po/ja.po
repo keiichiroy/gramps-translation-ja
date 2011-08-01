@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gramps 3.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-01 10:36+0200\n"
-"PO-Revision-Date: 2011-08-01 11:31+0900\n"
+"PO-Revision-Date: 2011-08-01 14:01+0900\n"
 "Last-Translator: Keiichiro Yamamoto <k.yanmar@gmail.com>\n"
 "Language-Team: Gramps Japanese Translaor Team\n"
 "Language: ja\n"
@@ -2558,7 +2558,7 @@ msgstr "テキストのみ"
 
 #: ../src/gen/lib/eventroletype.py:60
 msgid "Role|Primary"
-msgstr "役割|主要な"
+msgstr "本人"
 
 #: ../src/gen/lib/eventroletype.py:61
 msgid "Clergy"
@@ -2582,7 +2582,7 @@ msgstr "新郎"
 
 #: ../src/gen/lib/eventroletype.py:67
 msgid "Role|Family"
-msgstr "役割|家族"
+msgstr "家族"
 
 #: ../src/gen/lib/eventroletype.py:68
 msgid "Informant"
@@ -3039,9 +3039,8 @@ msgid "ToDo"
 msgstr "ToDo"
 
 #: ../src/gen/lib/nametype.py:55
-#, fuzzy
 msgid "Also Known As"
-msgstr "Also Known As"
+msgstr "通称"
 
 #: ../src/gen/lib/nametype.py:56
 msgid "Birth Name"
@@ -3053,15 +3052,15 @@ msgstr "婚姻名"
 
 #: ../src/gen/lib/nameorigintype.py:83
 msgid "Surname|Inherited"
-msgstr "姓|Inherited"
+msgstr "親から相続"
 
 #: ../src/gen/lib/nameorigintype.py:84
 msgid "Surname|Given"
-msgstr "姓|Given"
+msgstr "授けられた"
 
 #: ../src/gen/lib/nameorigintype.py:85
 msgid "Surname|Taken"
-msgstr "姓|Taken"
+msgstr "改姓"
 
 #: ../src/gen/lib/nameorigintype.py:87
 msgid "Matronymic"
@@ -3069,7 +3068,7 @@ msgstr "母称"
 
 #: ../src/gen/lib/nameorigintype.py:88
 msgid "Surname|Feudal"
-msgstr "姓|Feudal"
+msgstr "封建時代から"
 
 #: ../src/gen/lib/nameorigintype.py:89
 msgid "Pseudonym"
@@ -3077,11 +3076,11 @@ msgstr "別称"
 
 #: ../src/gen/lib/nameorigintype.py:90
 msgid "Patrilineal"
-msgstr "父系の"
+msgstr "父系の家系から"
 
 #: ../src/gen/lib/nameorigintype.py:91
 msgid "Matrilineal"
-msgstr "母系の"
+msgstr "母系の家系から"
 
 #: ../src/gen/lib/notetype.py:80 ../src/gui/configure.py:1096
 #: ../src/gui/editors/editeventref.py:77 ../src/gui/editors/editmediaref.py:91
@@ -5578,7 +5577,7 @@ msgstr "変更を破棄しますか?"
 msgid ""
 "Aborting changes will return the database to the state it was before you "
 "started this editing session."
-msgstr ""
+msgstr "変更の"
 
 #: ../src/gui/viewmanager.py:1036
 msgid "Abort changes"
@@ -6685,7 +6684,7 @@ msgstr "選択されたアドレスを下に移動"
 #: ../src/plugins/webreport/NarrativeWeb.py:144
 #: ../src/Filters/SideBar/_PlaceSidebarFilter.py:87
 msgid "Street"
-msgstr ""
+msgstr "番地"
 
 #: ../src/gui/editors/displaytabs/addrembedlist.py:81
 msgid "_Addresses"
@@ -6726,7 +6725,7 @@ msgstr "参照を編集"
 #: ../src/gui/editors/displaytabs/backrefmodel.py:48
 #, python-format
 msgid "%(part1)s - %(part2)s"
-msgstr ""
+msgstr "%(part1)s - %(part2)s"
 
 #: ../src/gui/editors/displaytabs/buttontab.py:68
 #: ../src/plugins/view/relview.py:399
@@ -6829,7 +6828,7 @@ msgstr "選択されたイベントを下に移動"
 #: ../src/gui/editors/displaytabs/eventembedlist.py:80
 #: ../src/plugins/gramplet/Events.py:54
 msgid "Role"
-msgstr "ロール"
+msgstr "役割"
 
 #: ../src/gui/editors/displaytabs/eventembedlist.py:92
 msgid "_Events"
@@ -27112,7 +27111,7 @@ msgstr "電話番号(_E):"
 
 #: ../src/glade/editlocation.glade.h:9 ../src/glade/editplace.glade.h:21
 msgid "S_treet:"
-msgstr ""
+msgstr "番地(_T):"
 
 #: ../src/glade/editlocation.glade.h:10 ../src/glade/editplace.glade.h:22
 msgid ""
@@ -27135,63 +27134,52 @@ msgstr ""
 #: ../src/glade/editlocation.glade.h:14 ../src/glade/editaddress.glade.h:18
 #: ../src/glade/editplace.glade.h:29
 msgid "_Locality:"
-msgstr "地方(_L):"
+msgstr "町名(_L):"
 
 #: ../src/glade/editlocation.glade.h:15 ../src/glade/editplace.glade.h:32
-#, fuzzy
 msgid "_State:"
-msgstr "状態:"
+msgstr "州/都道府県(_S):"
 
 #: ../src/glade/editlocation.glade.h:16 ../src/glade/editaddress.glade.h:20
 #: ../src/glade/editplace.glade.h:33
-#, fuzzy
 msgid "_ZIP/Postal code:"
-msgstr "郵便番号:"
+msgstr "郵便番号(_Z):"
 
 #: ../src/glade/editlink.glade.h:2
-#, fuzzy
 msgid "Gramps item:"
-msgstr "アイテムの振る舞い"
+msgstr "Gramps項目:"
 
 #: ../src/glade/editlink.glade.h:3
-#, fuzzy
 msgid "Internet Address:"
-msgstr "サポートしていないソケット・アドレスです"
+msgstr "インターネットアドレス:"
 
 #: ../src/glade/editlink.glade.h:4
-#, fuzzy
 msgid "Link Type:"
-msgstr "<b>%i</b> 個のオブジェクト、 種類: <b>%s</b>"
+msgstr "リンクの種類:"
 
 #: ../src/glade/editfamily.glade.h:1
-#, fuzzy
 msgid "<b>Father</b>"
-msgstr "父親"
+msgstr "<b>父親</b>"
 
 #: ../src/glade/editfamily.glade.h:2
-#, fuzzy
 msgid "<b>Mother</b>"
-msgstr "母親"
+msgstr "<b>母親</b>"
 
 #: ../src/glade/editfamily.glade.h:3
-#, fuzzy
 msgid "<b>Relationship Information</b>"
-msgstr "ページ情報"
+msgstr "<b>関係情報</b>"
 
 #: ../src/glade/editfamily.glade.h:4
-#, fuzzy
 msgid "A unique ID for the family"
-msgstr "アクションに固有の名称です"
+msgstr "家族のユニークID"
 
 #: ../src/glade/editfamily.glade.h:7
-#, fuzzy
 msgid "Birth:"
-msgstr "誕生日"
+msgstr "誕生日:"
 
 #: ../src/glade/editfamily.glade.h:8
-#, fuzzy
 msgid "Death:"
-msgstr "死亡日"
+msgstr "死亡日:"
 
 #: ../src/glade/editfamily.glade.h:13
 msgid ""
@@ -27206,17 +27194,15 @@ msgstr "子ウィジェットの上"
 
 #: ../src/glade/editchildref.glade.h:3
 msgid "Open person editor of this child"
-msgstr ""
+msgstr "この子供を人物エディタで開く"
 
 #: ../src/glade/editchildref.glade.h:4
-#, fuzzy
 msgid "Relationship to _Father:"
-msgstr "%s。ドラッグで<b>move</b>します。"
+msgstr "父親への関係(_F):"
 
 #: ../src/glade/editchildref.glade.h:5
-#, fuzzy
 msgid "Relationship to _Mother:"
-msgstr "3D 真珠貝"
+msgstr "母親への関係(_F):"
 
 #: ../src/glade/editattribute.glade.h:1
 msgid ""
@@ -27235,19 +27221,16 @@ msgid "The value of the attribute. Eg. 1.8, Sunny, or Blue eyes."
 msgstr ""
 
 #: ../src/glade/editattribute.glade.h:6
-#, fuzzy
 msgid "_Attribute:"
-msgstr "属性"
+msgstr "属性(_A):"
 
 #: ../src/glade/editattribute.glade.h:7
-#, fuzzy
 msgid "_Value:"
-msgstr "明度(_V):"
+msgstr "値(_V):"
 
 #: ../src/glade/editaddress.glade.h:4
-#, fuzzy
 msgid "Country of the address"
-msgstr "サポートしていないソケット・アドレスです"
+msgstr "国のアドレス"
 
 #: ../src/glade/editaddress.glade.h:5
 msgid "Date at which the address is valid."
@@ -27265,9 +27248,8 @@ msgid "Phone number linked to the address."
 msgstr ""
 
 #: ../src/glade/editaddress.glade.h:11
-#, fuzzy
 msgid "Postal code"
-msgstr "郵便番号:"
+msgstr "郵便番号"
 
 #: ../src/glade/editaddress.glade.h:12 ../src/glade/editmedia.glade.h:9
 #: ../src/glade/editevent.glade.h:7
@@ -27276,9 +27258,8 @@ msgid "Show Date Editor"
 msgstr "エディタデータを保持する"
 
 #: ../src/glade/editaddress.glade.h:13
-#, fuzzy
 msgid "St_reet:"
-msgstr "ストロークのスタイル(_Y)"
+msgstr "番地(_R):"
 
 #: ../src/glade/editaddress.glade.h:14
 #, fuzzy
