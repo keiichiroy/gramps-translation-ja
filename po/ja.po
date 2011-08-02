@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gramps 3.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-01 10:36+0200\n"
-"PO-Revision-Date: 2011-08-02 18:55+0900\n"
+"PO-Revision-Date: 2011-08-02 19:00+0900\n"
 "Last-Translator: Keiichiro Yamamoto <k.yanmar@gmail.com>\n"
 "Language-Team: Gramps Japanese Translaor Team\n"
 "Language: ja\n"
@@ -11735,7 +11735,7 @@ msgstr "点字に変換"
 
 #: ../src/plugins/gramplet/EditExifMetadata.py:296
 msgid "Decimal"
-msgstr ""
+msgstr "数字の"
 
 #: ../src/plugins/gramplet/EditExifMetadata.py:297
 #, fuzzy
@@ -11921,14 +11921,14 @@ msgstr "メニュー・バー"
 #: ../src/plugins/view/relview.py:901
 #: ../src/plugins/webreport/NarrativeWeb.py:4878
 msgid "Siblings"
-msgstr ""
+msgstr "子供"
 
 #. Go over parents and build their menu
 #: ../src/plugins/gramplet/FanChartGramplet.py:873
 #: ../src/plugins/view/fanchartview.py:942
 #: ../src/plugins/view/pedigreeview.py:1997
 msgid "Related"
-msgstr ""
+msgstr "関連した項目"
 
 #: ../src/plugins/gramplet/FaqGramplet.py:40
 #, python-format
@@ -12082,7 +12082,7 @@ msgstr ""
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:89
 msgid "Descendant"
-msgstr ""
+msgstr "子孫"
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:90
 msgid "Gramplet showing active person's descendants"
@@ -12090,7 +12090,7 @@ msgstr ""
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:96
 msgid "Descendants"
-msgstr ""
+msgstr "子孫"
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:107
 msgid "Gramplet showing active person's direct ancestors as a fanchart"
@@ -12131,7 +12131,7 @@ msgstr ""
 #: ../src/plugins/gramplet/gramplet.gpr.py:197
 #: ../src/plugins/gramplet/gramplet.gpr.py:203
 msgid "Relatives"
-msgstr ""
+msgstr "関係"
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:198
 msgid "Gramplet showing active person's relatives"
@@ -12162,7 +12162,7 @@ msgstr ""
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:255
 msgid "TODO"
-msgstr ""
+msgstr "TODO"
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:256
 msgid "Gramplet for generic notes"
@@ -12185,7 +12185,7 @@ msgstr ""
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:282
 msgid "Welcome"
-msgstr ""
+msgstr "ようこそ"
 
 #: ../src/plugins/gramplet/gramplet.gpr.py:283
 msgid "Gramplet showing a welcome message"
@@ -12417,7 +12417,7 @@ msgstr "Z 軸の基線長"
 #. List of translated strings used here (translated in self.log ).
 #: ../src/plugins/gramplet/SessionLogGramplet.py:57
 msgid "Added"
-msgstr ""
+msgstr "追加されました"
 
 #: ../src/plugins/gramplet/SessionLogGramplet.py:57
 #, fuzzy
@@ -12426,7 +12426,7 @@ msgstr "%s を削除しました。\n"
 
 #: ../src/plugins/gramplet/SessionLogGramplet.py:57
 msgid "Edited"
-msgstr ""
+msgstr "編集されました"
 
 #: ../src/plugins/gramplet/SessionLogGramplet.py:57
 #, fuzzy
@@ -12466,7 +12466,7 @@ msgstr "色相を小さく"
 #: ../src/plugins/webreport/NarrativeWeb.py:1257
 #: ../src/plugins/webreport/NarrativeWeb.py:2078
 msgid "Individuals"
-msgstr ""
+msgstr "個人"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:137
 #, fuzzy
@@ -12479,18 +12479,18 @@ msgstr "浮動小数点数"
 #: ../src/plugins/graph/GVRelGraph.py:547
 #: ../src/Filters/Rules/Person/_IsMale.py:46
 msgid "Males"
-msgstr ""
+msgstr "男性"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:144
 #: ../src/plugins/graph/GVFamilyLines.py:155
 #: ../src/plugins/graph/GVRelGraph.py:551
 #: ../src/Filters/Rules/Person/_IsFemale.py:46
 msgid "Females"
-msgstr ""
+msgstr "女性"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:147
 msgid "Individuals with unknown gender"
-msgstr ""
+msgstr "性別不明の個人"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:151
 #, fuzzy
@@ -12499,7 +12499,7 @@ msgstr "ホスト名が不完全です ('/' で終わっていません)"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:155
 msgid "Individuals missing birth dates"
-msgstr ""
+msgstr "誕生日の不明な個人"
 
 #: ../src/plugins/gramplet/StatsGramplet.py:159
 msgid "Disconnected individuals"
