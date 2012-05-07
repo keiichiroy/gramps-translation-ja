@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gramps 3.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-27 16:40+0100\n"
-"PO-Revision-Date: 2012-05-07 16:41+0900\n"
+"PO-Revision-Date: 2012-05-07 18:30+0900\n"
 "Last-Translator: Keiichiro Yamamoto <k.yanmar@gmail.com>\n"
 "Language-Team: Japanese <k.yanmar@gmail.com>\n"
 "Language: ja\n"
@@ -2070,7 +2070,7 @@ msgstr "選択されたアクションを実行"
 #: ../src/cli/arghandler.py:416
 #, python-format
 msgid "Using options string: %s"
-msgstr ""
+msgstr "オプション文字列 %s を使用してください"
 
 #: ../src/cli/arghandler.py:424
 #, python-format
