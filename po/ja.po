@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gramps 3.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-27 16:40+0100\n"
-"PO-Revision-Date: 2012-05-08 09:14+0900\n"
+"PO-Revision-Date: 2012-05-08 09:56+0900\n"
 "Last-Translator: Keiichiro Yamamoto <k.yanmar@gmail.com>\n"
 "Language-Team: Japanese <k.yanmar@gmail.com>\n"
 "Language: ja\n"
@@ -228,7 +228,7 @@ msgstr "計算された"
 
 #: ../src/DateEdit.py:102
 msgid "manual|Editing_Dates"
-msgstr "マニュアル|日付を編集する"
+msgstr "日付を編集する"
 
 #: ../src/DateEdit.py:152
 msgid "Bad Date"
@@ -2020,7 +2020,7 @@ msgid ""
 msgstr ""
 "警告: 出力ファイルが既に存在しています!\n"
 "警告: ファイルは上書きされます:\n"
-"   %(name)s"
+"   %s"
 
 #: ../src/cli/arghandler.py:278
 msgid "OK to overwrite? (yes/no) "
@@ -18758,19 +18758,19 @@ msgstr "%(date)s, %(place)s"
 #: ../src/plugins/textreport/DetDescendantReport.py:443
 #, python-format
 msgid "%(date)s"
-msgstr "日付"
+msgstr "%(date)s"
 
 #: ../src/plugins/textreport/DetAncestralReport.py:430
 #: ../src/plugins/textreport/DetDescendantReport.py:445
 #, python-format
 msgid "%(place)s"
-msgstr "同じ場所に貼り付け(_I)"
+msgstr "%(place)s"
 
 #: ../src/plugins/textreport/DetAncestralReport.py:442
 #: ../src/plugins/textreport/DetDescendantReport.py:457
 #, python-format
 msgid "%(event_name)s: %(event_text)s"
-msgstr "<b>流し込みテキスト</b> (%d 文字%s)"
+msgstr "%(event_name)s: %(event_text)s"
 
 #: ../src/plugins/textreport/DetAncestralReport.py:554
 #: ../src/plugins/textreport/DetDescendantReport.py:610
